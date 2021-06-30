@@ -1,0 +1,128 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment2
+  labels:
+    app: nginx-app2
+  namespace: apps
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-app2
+  template:
+    metadata:
+      labels:
+        app: nginx-app2
+
+
+
+    spec:
+      containers:
+      - name: nginxfeva2
+        image: nginx:latest
+        volumeMounts:
+               - mountPath: /etc/nginx/nginx.conf
+                 name: nginxconf
+
+               - mountPath: /etc/nginx/conf.d/bublik.conf
+                 name: bublikconf
+
+               - mountPath: /etc/nginx/snippets/ssl-params.conf
+                 name: sslparams
+
+               - mountPath: /etc/nginx/snippets/self-signed.conf
+                 name: self 
+
+
+
+               - mountPath: /etc/nginx/dhparam.pem
+                 name: dhparam
+
+               - mountPath: /etc/nginx/ssl/regv2.crt
+                 name: ssl2crt
+               - mountPath: /etc/nginx/ssl/regv2.key
+                 name: ssl2key
+
+        ports:
+        - containerPort: 80
+        - containerPort: 443
+
+      volumes:
+      - name: nginxconf
+        hostPath:
+          path: /home/devops/devops/jenkins/nginx.conf
+          type: FileOrCreate
+
+      - name: bublikconf
+        hostPath:
+          path: /home/devops/devops/jenkins/bublik.conf
+          type: FileOrCreate
+
+      - name: self
+        hostPath:
+          path: /home/devops/devops/nginx/selfsigned.conf
+          type: FileOrCreate
+
+      - name: sslparams
+        hostPath:
+          path: /home/devops/devops/nginx/ssl-params.conf
+          type: FileOrCreate
+
+
+      - name: ssl2key
+        hostPath:
+          path: /home/devops/devops/jenkins/regv2.key
+          type: FileOrCreate
+
+      - name: ssl2crt
+        hostPath:
+          path: /home/devops/devops/jenkins/regv2.crt
+
+
+      - name: dhparam
+        hostPath:
+          path: /home/devops/devops/ssl/dhparam.pem
+          type: FileOrCreate
+
+      nodeSelector:   
+       super: kolobok
+      tolerations:
+              - key: node-role.kubernetes.io/master
+                effect: NoSchedule  
+         
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginxexpose2
+  namespace: apps
+spec:
+  type: LoadBalancer
+  selector:
+     app: nginx-app2
+
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30889
+
+
+    - name: https
+      protocol: TCP
+      port: 443
+      targetPort: 443
+      nodePort: 30444
+  externalIPs:
+     - 10.1.1.1
+
+
+
+
+
+

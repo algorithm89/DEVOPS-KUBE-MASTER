@@ -1,0 +1,62 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: regv2
+  labels:
+    app: registry
+    namespace: apps
+spec:
+  containers:
+  - name: registry
+    image: registry:2
+    volumeMounts:
+    - name: repo-vol
+      mountPath: "/var/lib/registry"
+      readOnly: false
+
+    - name: auth-sec
+      mountPath: "/auth/htpasswd"
+      readOnly: true
+
+    env:
+    - name: REGISTRY_AUTH
+      value: "htpasswd"
+    - name: REGISTRY_AUTH_HTPASSWD_REALM
+      value: "Registry Realm"
+    - name: REGISTRY_AUTH_HTPASSWD_PATH
+      value: "/auth/htpasswd"
+
+  volumes:
+  - name: repo-vol
+    persistentVolumeClaim:
+      claimName: reg-pvc
+
+  - name: auth-sec
+    hostPath:
+      path: /home/devops/devops/registry/htpasswd
+      type: FileOrCreate
+      
+
+  nodeSelector:
+          yummy: hleb
+
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: regv2svc 
+  namespace: apps
+spec:
+  type: LoadBalancer
+  selector:
+    app: registry
+  ports:
+  - name: http
+    port: 5000
+    targetPort: 5000
+    nodePort: 32500
+  externalIPs:  
+     - 10.1.1.8
