@@ -27,11 +27,14 @@ spec:
           ports:
             - containerPort: 8081
           volumeMounts:
-            - name: nexus-data
+            - name: nexus-vol
               mountPath: /nexus-data
+      
       volumes:
-        - name: nexus-data
-          emptyDir: {}
+       - name: nexus-vol
+         persistentVolumeClaim:
+           claimName: nexus-pvc
+    
 
       nodeSelector:
          super: kolobok
