@@ -29,6 +29,8 @@ spec:
           volumeMounts:
             - name: nexus-vol
               mountPath: /nexus-data
+              readOnly: false
+     
       
       volumes:
        - name: nexus-vol

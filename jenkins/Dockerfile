@@ -35,6 +35,7 @@ RUN useradd devops && mkdir -p /home/devops/.ssh
 
 RUN echo "host *" >> /home/devops/.ssh/config &&\
     echo "StrictHostKeyChecking no" >> /home/devops/.ssh/config
+RUN useradd -ms /bin/bash devops
 
 
 ENV ANSIBLE_GATHERING smart
