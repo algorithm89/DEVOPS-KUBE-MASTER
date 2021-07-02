@@ -30,7 +30,14 @@ spec:
             - name: nexus-vol
               mountPath: /nexus-data
               readOnly: false
-     
+      initContainers:
+         - name: init-nexus
+           image: busybox   
+           command: ["sh", "-c", "chown -R 200:200 /nexus-data  && touch /tmp/coolboots.txt"]
+           volumeMounts:
+             - name: nexus-vol
+               mountPath: /nexus-data
+
       
       volumes:
        - name: nexus-vol
