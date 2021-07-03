@@ -5,7 +5,7 @@ FROM jenkins/jenkins:lts-jdk11
 USER root
 RUN apt-get update && \
     apt-get install -y software-properties-common  zlib1g-dev python-dev  python3-setuptools python3-wheel  && \
-    apt-get install -y tar curl build-essential manpages-dev libssl-dev openssl openssh-client bash libffi-dev libzip-dev bzip* 
+    apt-get install -y net-tools tar curl build-essential manpages-dev libssl-dev openssl openssh-client bash libffi-dev libzip-dev bzip* 
   
 
 WORKDIR /tmp
@@ -31,12 +31,16 @@ RUN     curl -O https://releases.ansible.com/ansible/ansible-2.9.3.tar.gz && \
         python3 -V && \ 
         java -version
 
-RUN useradd devops && mkdir -p /home/devops/.ssh
+RUN useradd -ms /bin/bash devops
+RUN export PS1="\[\e[32m\][\[\e[m\]\[\e[31m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[32m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]\[\e[32;47m\]\\$\[\e[m\]" 
+
+USER devops
+RUN ssh-keygen -q -t rsa -b 4028 -N '' -f ~/.ssh/id_rsa << y 
 
 RUN echo "host *" >> /home/devops/.ssh/config &&\
     echo "StrictHostKeyChecking no" >> /home/devops/.ssh/config
-RUN useradd -ms /bin/bash devops
 
+USER root
 
 ENV ANSIBLE_GATHERING smart
 ENV ANSIBLE_HOST_KEY_CHECKING False

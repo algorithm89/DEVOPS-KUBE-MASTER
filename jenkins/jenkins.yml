@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: jenkins
-        image: regv2.bubliks.net/jenkins-ansible-python3
+        image: regv2.bubliks.net/jenk2ansi2python
 
         ports:
           - name: http-port
@@ -25,6 +25,8 @@ spec:
         volumeMounts:
           - name: jenkins-vol
             mountPath: /var/jenkins_home
+
+
 
       volumes:
        - name: jenkins-vol
