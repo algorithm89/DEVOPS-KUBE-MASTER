@@ -1,0 +1,1268 @@
+managed-keys-zone: loaded serial 0
+zone 1.1.10.in-addr.arpa/IN: loaded serial 3
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone bubliks.net/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+all zones loaded
+running
+zone 1.1.10.in-addr.arpa/IN: sending notifies (serial 3)
+zone bubliks.net/IN: sending notifies (serial 3)
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:eea3::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:502:7094::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:d2d::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns4-64.akam.net/AAAA/IN': 2600:1401:2::43#53
+network unreachable resolving 'ns4-64.akam.net/AAAA/IN': 2600:1401:1::43#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5306:e000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5300:2100::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5302:6000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5304:a000::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5305:5400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5301:d500::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5307:9400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5303:1600::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/AAAA/IN': 2600:9000:5306:e000::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2a01:618:404::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2401:fd80:404::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2a01:618:400::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2401:fd80:400::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2a01:618:404::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:40::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:e::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:c::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:f::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:48::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2001:500:b::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/AAAA/IN': 2001:500:48::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/AAAA/IN': 2a01:618:404::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2600:9000:5300:8700::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2600:9000:5302:c900::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2600:9000:5304:a00::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/A/IN': 2600:9000:5306:4700::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5307:3d00::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5303:b900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5301:7900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5305:fc00::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5302:5600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5306:d600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5304:9600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5300:1700::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5303:b900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5307:3d00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5305:4c00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5307:8c00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5303:e00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5301:cd00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/AAAA/IN': 2600:9000:5303:e00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5300:3000::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5302:6f00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5304:af00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5306:ef00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/A/IN': 2600:9000:5300:3000::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/AAAA/IN': 2600:9000:5305:d100::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/AAAA/IN': 2600:9000:5301:4e00::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/AAAA/IN': 2600:9000:5307:1200::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/AAAA/IN': 2600:9000:5303:8e00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5307:3c00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5301:7800::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5303:b800::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5305:fb00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5300:9d00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5304:2000::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5302:df00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5306:5d00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/AAAA/IN': 2600:9000:5301:7800::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5306:7700::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5302:f900::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5304:3a00::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5300:b700::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5304:3a00::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5302:f900::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5300:b700::1#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:43f8:110::10#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:500:87::87#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:67c:e0::1#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2620:37:e000::53#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:dd8:6::101#53
+network unreachable resolving 'u.arin.net/A/IN': 2001:500:31::108#53
+network unreachable resolving 'u.arin.net/A/IN': 2001:500:a9::108#53
+network unreachable resolving 'u.arin.net/A/IN': 2001:500:14:6050:ad::1#53
+network unreachable resolving 'u.arin.net/A/IN': 2001:500:13::108#53
+network unreachable resolving 'r.arin.net/AAAA/IN': 2001:500:14:6050:ad::1#53
+network unreachable resolving '8.8.8.8.in-addr.arpa/PTR/IN': 2001:500:f0::63#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2001:dd8:12::53#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2620:38:2000::53#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2001:500:14:6100:ad::1#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2001:13c7:7002:3000::14#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2001:67c:e0::7#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2620:38:2000::53#53
+network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:34::a#53
+network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:38::a#53
+network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:32::a#53
+network unreachable resolving 'ns1.google.com/AAAA/IN': 2001:4860:4802:36::a#53
+network unreachable resolving 'ns1.google.com/A/IN': 2001:4860:4802:36::a#53
+network unreachable resolving 'in-addr.arpa/DNSKEY/IN': 2620:37:e000::53#53
+network unreachable resolving '8.8.in-addr.arpa/DS/IN': 2001:500:13::63#53
+network unreachable resolving '8.8.in-addr.arpa/DS/IN': 2001:500:127::30#53
+network unreachable resolving '8.8.in-addr.arpa/DS/IN': 2001:67c:e0::10#53
+network unreachable resolving '8.in-addr.arpa/DNSKEY/IN': 2001:500:13::63#53
+network unreachable resolving '2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa/PTR/IN': 2001:67c:e0::2#53
+network unreachable resolving '2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa/PTR/IN': 2001:13c7:7012::53#53
+network unreachable resolving '2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa/PTR/IN': 2001:43f8:110::11#53
+network unreachable resolving '2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa/PTR/IN': 2001:500:86::86#53
+network unreachable resolving 'ip6.arpa/DNSKEY/IN': 2001:43f8:110::11#53
+network unreachable resolving 'ip6.arpa/DNSKEY/IN': 2001:500:86::86#53
+network unreachable resolving 'b.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa/PTR/IN': 2001:43f8:110::11#53
+network unreachable resolving 'a.iana-servers.net/A/IN': 2001:500:8d::53#53
+network unreachable resolving 'a.iana-servers.net/A/IN': 2001:500:8e::53#53
+network unreachable resolving 'a.iana-servers.net/A/IN': 2001:500:8f::53#53
+network unreachable resolving 'a.icann-servers.net/A/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns.icann.org/AAAA/IN': 2001:500:89::53#53
+network unreachable resolving 'a.icann-servers.net/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving '250.255.255.239.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+network unreachable resolving '250.255.255.239.in-addr.arpa/PTR/IN': 2001:500:89::53#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2600:2000:1001::21#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2a02:e180:8::1#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2600:2000:1000::21#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2001:500:90:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2001:500:94:1::136#53
+network unreachable resolving 'ns2.p20.dynect.net/AAAA/IN': 2a02:e180:8::1#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1002::2:3#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1003::3:c#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1001::1:a#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2604:a880:2:d0::1ce8:7001#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2604:1380:3000:8800::1#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2a03:b0c0:2:d0::20:1001#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2a03:b0c0:3:d0::c0:4001#53
+network unreachable resolving 'anyns.pch.net/AAAA/IN': 2620:0:872::231:3#53
+network unreachable resolving 'anyns.pch.net/AAAA/IN': 2001:418:3f4::5#53
+network unreachable resolving 'anyns.pch.net/AAAA/IN': 2001:500:14:6004:ad::1#53
+network unreachable resolving 'mirror2.evolution-host.com/AAAA/IN': 2400:cb00:2049:1::a29f:852#53
+network unreachable resolving 'mirror2.evolution-host.com/AAAA/IN': 2607:5300:204:42c0:5e5c:8935:ec93:1#53
+network unreachable resolving 'mirror2.evolution-host.com/A/IN': 2400:cb00:2049:1::a29f:998#53
+network unreachable resolving 'evolution-host.com/DNSKEY/IN': 2607:5300:204:42c0:5e5c:8935:ec93:1#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/A/IN': 2a01:8840:a1::17#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/A/IN': 2a01:8840:9e::17#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/A/IN': 2a01:8840:a0::17#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/A/IN': 2a01:8840:9f::17#53
+network unreachable resolving 'ns-63.awsdns-07.com/A/IN': 2600:9000:5302:4700::1#53
+network unreachable resolving 'ns-63.awsdns-07.com/A/IN': 2600:9000:5306:c700::1#53
+network unreachable resolving 'ns-63.awsdns-07.com/A/IN': 2600:9000:5304:8700::1#53
+network unreachable resolving 'ns-63.awsdns-07.com/A/IN': 2600:9000:5300:800::1#53
+network unreachable resolving 'ns-63.awsdns-07.com/AAAA/IN': 2600:9000:5306:c700::1#53
+network unreachable resolving 'ns-63.awsdns-07.com/AAAA/IN': 2600:9000:5304:8700::1#53
+network unreachable resolving 'ns-1529.awsdns-63.org/A/IN': 2600:9000:5303:c200::1#53
+network unreachable resolving 'ns-1529.awsdns-63.org/A/IN': 2600:9000:5306:7f00::1#53
+network unreachable resolving 'ns-1529.awsdns-63.org/A/IN': 2600:9000:5300:bf00::1#53
+network unreachable resolving 'ns-1529.awsdns-63.org/A/IN': 2600:9000:5305:300::1#53
+network unreachable resolving 'ns-516.awsdns-00.net/AAAA/IN': 2600:9000:5307:8000::1#53
+network unreachable resolving 'ns-516.awsdns-00.net/AAAA/IN': 2600:9000:5303:200::1#53
+network unreachable resolving 'ns-516.awsdns-00.net/AAAA/IN': 2600:9000:5301:c100::1#53
+network unreachable resolving 'ns-516.awsdns-00.net/AAAA/IN': 2600:9000:5305:4000::1#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/AAAA/IN': 2600:9000:5302:400::1#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/AAAA/IN': 2600:9000:5300:3f00::1#53
+network unreachable resolving 'centos.ca-west.mirror.fullhost.io/AAAA/IN': 2600:9000:5305:f900::1#53
+network unreachable resolving 'ns-2031.awsdns-61.co.uk/AAAA/IN': 2600:9000:5303:bd00::1#53
+network unreachable resolving 'ns-2031.awsdns-61.co.uk/AAAA/IN': 2600:9000:5301:7d00::1#53
+network unreachable resolving 'ns-2031.awsdns-61.co.uk/AAAA/IN': 2600:9000:5306:200::1#53
+network unreachable resolving 'ns-2031.awsdns-61.co.uk/AAAA/IN': 2600:9000:5304:c100::1#53
+network unreachable resolving 'ns-2031.awsdns-61.co.uk/A/IN': 2600:9000:5306:200::1#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2a06:98c1:50::ac40:217f#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2606:4700:50::adf5:3a77#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2803:f800:50::6ca2:c17f#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2a06:98c1:50::ac40:2077#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2606:4700:58::adf5:3b7f#53
+network unreachable resolving 'centos.mirror.vexxhost.com/AAAA/IN': 2803:f800:50::6ca2:c077#53
+network unreachable resolving 'centos.mirror.vexxhost.com/A/IN': 2606:4700:50::adf5:3a77#53
+network unreachable resolving 'mirror.vexxhost.com/A/IN': 2606:4700:50::adf5:3a77#53
+network unreachable resolving 'mirror.vexxhost.com/AAAA/IN': 2606:4700:50::adf5:3a77#53
+client @0x7f53700b11c0 10.1.1.8#54185 (1.1.10.in-addr.arpa): transfer of '1.1.10.in-addr.arpa/IN': AXFR started (serial 3)
+client @0x7f53700b11c0 10.1.1.8#54185 (1.1.10.in-addr.arpa): transfer of '1.1.10.in-addr.arpa/IN': AXFR ended
+network unreachable resolving '102.132.232.216.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+network unreachable resolving 'dns2.cidc.telus.com/A/IN': 2001:56b:d:a00::40#53
+network unreachable resolving 'dns40.telus.ca/A/IN': 2001:500:83::1#53
+network unreachable resolving 'dns40.telus.ca/A/IN': 2620:10a:8053::2#53
+network unreachable resolving 'dns40.telus.ca/A/IN': 2620:10a:80ba::68#53
+network unreachable resolving 'dns40.telus.ca/A/IN': 2001:500:a7::2#53
+network unreachable resolving 'dns40.telus.ca/A/IN': 2001:56b:d:8c00::48#53
+network unreachable resolving 'dns24.telus.ca/A/IN': 2001:56b:d:c00::48#53
+network unreachable resolving '61.221.69.68.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+network unreachable resolving '61.221.69.68.in-addr.arpa/PTR/IN': 2001:500:14:6050:ad::1#53
+network unreachable resolving 'stuka.sasknet.sk.ca/A/IN': 2620:10a:80eb::2#53
+network unreachable resolving 'stuka.sasknet.sk.ca/A/IN': 2620:10a:80ec::2#53
+network unreachable resolving 'ns1.linode.com/A/IN': 2400:cb00:2049:1::a29f:1827#53
+network unreachable resolving 'ns1.linode.com/A/IN': 2400:cb00:2049:1::a29f:1b48#53
+network unreachable resolving 'ns1.linode.com/A/IN': 2400:cb00:2049:1::a29f:1981#53
+network unreachable resolving 'ns1.linode.com/A/IN': 2400:cb00:2049:1::a29f:1a63#53
+network unreachable resolving 'ns1.linode.com/A/IN': 2400:cb00:2049:1::a29f:1819#53
+network unreachable resolving 'ns1.linode.com/AAAA/IN': 2400:cb00:2049:1::a29f:1819#53
+network unreachable resolving 'ns2.linode.com/A/IN': 2400:cb00:2049:1::a29f:1819#53
+network unreachable resolving '249.46.210.207.in-addr.arpa.rafal.ca/PTR/IN': 2604:1500:f001:0:216:3eff:fe3f:746b#53
+network unreachable resolving '249.46.210.207.in-addr.arpa.rafal.ca/PTR/IN': 2620:120:8000:1f4:216:3eff:fe91:9747#53
+network unreachable resolving 'ca/DNSKEY/IN': 2001:500:a7::2#53
+network unreachable resolving 'ns-897.awsdns-48.net/A/IN': 2600:9000:5303:3200::1#53
+network unreachable resolving 'ns-897.awsdns-48.net/A/IN': 2600:9000:5305:7000::1#53
+network unreachable resolving 'ns-897.awsdns-48.net/A/IN': 2600:9000:5301:f100::1#53
+network unreachable resolving 'ns-897.awsdns-48.net/A/IN': 2600:9000:5307:b000::1#53
+network unreachable resolving 'ns-96.awsdns-12.com/A/IN': 2600:9000:5306:cc00::1#53
+network unreachable resolving 'ns-96.awsdns-12.com/A/IN': 2600:9000:5304:8c00::1#53
+network unreachable resolving 'ns-96.awsdns-12.com/A/IN': 2600:9000:5300:d00::1#53
+network unreachable resolving 'ns-96.awsdns-12.com/A/IN': 2600:9000:5302:4c00::1#53
+network unreachable resolving 'ns-96.awsdns-12.com/AAAA/IN': 2600:9000:5302:4c00::1#53
+network unreachable resolving 'ns-897.awsdns-48.net/AAAA/IN': 2600:9000:5301:f100::1#53
+network unreachable resolving 'ns-897.awsdns-48.net/AAAA/IN': 2600:9000:5307:b000::1#53
+network unreachable resolving 'ns-1702.awsdns-20.co.uk/AAAA/IN': 2600:9000:5305:d700::1#53
+network unreachable resolving 'ns-1702.awsdns-20.co.uk/AAAA/IN': 2600:9000:5301:5400::1#53
+network unreachable resolving 'ns-1702.awsdns-20.co.uk/AAAA/IN': 2600:9000:5303:9400::1#53
+network unreachable resolving 'ns-1702.awsdns-20.co.uk/AAAA/IN': 2600:9000:5307:1800::1#53
+network unreachable resolving 'ns-1702.awsdns-20.co.uk/A/IN': 2600:9000:5307:1800::1#53
+network unreachable resolving 'files.pythonhosted.org/A/IN': 2600:9000:5306:a600::1#53
+network unreachable resolving 'files.pythonhosted.org/A/IN': 2600:9000:5303:8100::1#53
+network unreachable resolving 'files.pythonhosted.org/A/IN': 2600:9000:5300:6000::1#53
+network unreachable resolving 'files.pythonhosted.org/AAAA/IN': 2600:9000:5306:a600::1#53
+network unreachable resolving 'mirrors.fedoraproject.org/A/IN': 2610:28:3090:3001:dead:beef:cafe:fed5#53
+network unreachable resolving 'mirrors.fedoraproject.org/AAAA/IN': 2610:28:3090:3001:dead:beef:cafe:fed5#53
+network unreachable resolving 'mirrors.fedoraproject.org/A/IN': 2001:4178:2:1269:dead:beef:cafe:fed5#53
+network unreachable resolving 'mirrors.fedoraproject.org/AAAA/IN': 2001:4178:2:1269:dead:beef:cafe:fed5#53
+network unreachable resolving 'mirror.csclub.uwaterloo.ca/A/IN': 2620:101:f000:401::25#53
+network unreachable resolving 'mirror.csclub.uwaterloo.ca/A/IN': 2620:101:f000:401::27#53
+network unreachable resolving 'uwaterloo.ca/DS/IN': 2001:500:83::1#53
+network unreachable resolving 'fedora.westmancom.com/A/IN': 2607:0:2:1:216:36:128:2#53
+network unreachable resolving 'fedora.westmancom.com/AAAA/IN': 2607:0:2:1:216:36:128:2#53
+network unreachable resolving 'fedora.westmancom.com/A/IN': 2607:0:2:1:216:36:128:3#53
+network unreachable resolving 'fedora.westmancom.com/AAAA/IN': 2607:0:2:1:216:36:128:3#53
+trust-anchor-telemetry '_ta-4f66/IN' from 10.1.1.8
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fe::53#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:1::53#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2::c#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:a8::e#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2f::f#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:7fd::1#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:200::b#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:12::d0d#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:9f::42#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:503:c27::2:30#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:dc3::35#53
+network unreachable resolving '_ta-4f66/NULL/IN': 2001:500:2d::d#53
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.1.1.1#53
+no longer listening on ::1#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 2
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.1.10.in-addr.arpa/IN: loaded serial 3
+zone localhost.localdomain/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone bubliks.net/IN: loaded serial 3
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+all zones loaded
+running
+zone 1.1.10.in-addr.arpa/IN: sending notifies (serial 3)
+zone bubliks.net/IN: sending notifies (serial 3)
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 192.5.5.241#53
+network unreachable resolving './NS/IN': 192.5.5.241#53
+network unreachable resolving './DNSKEY/IN': 198.97.190.53#53
+network unreachable resolving './NS/IN': 198.97.190.53#53
+network unreachable resolving './DNSKEY/IN': 192.58.128.30#53
+network unreachable resolving './NS/IN': 192.58.128.30#53
+network unreachable resolving './DNSKEY/IN': 192.112.36.4#53
+network unreachable resolving './NS/IN': 192.112.36.4#53
+network unreachable resolving './DNSKEY/IN': 202.12.27.33#53
+network unreachable resolving './NS/IN': 202.12.27.33#53
+network unreachable resolving './DNSKEY/IN': 199.7.91.13#53
+network unreachable resolving './NS/IN': 199.7.91.13#53
+network unreachable resolving './DNSKEY/IN': 192.203.230.10#53
+network unreachable resolving './NS/IN': 192.203.230.10#53
+network unreachable resolving './DNSKEY/IN': 192.33.4.12#53
+network unreachable resolving './NS/IN': 192.33.4.12#53
+network unreachable resolving './DNSKEY/IN': 199.9.14.201#53
+network unreachable resolving './NS/IN': 199.9.14.201#53
+network unreachable resolving './DNSKEY/IN': 199.7.83.42#53
+network unreachable resolving './NS/IN': 199.7.83.42#53
+network unreachable resolving './DNSKEY/IN': 198.41.0.4#53
+network unreachable resolving './NS/IN': 198.41.0.4#53
+network unreachable resolving './DNSKEY/IN': 193.0.14.129#53
+network unreachable resolving './NS/IN': 193.0.14.129#53
+network unreachable resolving './DNSKEY/IN': 192.36.148.17#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+network unreachable resolving './NS/IN': 192.36.148.17#53
+resolver priming query complete
+listening on IPv4 interface enp0s8, 10.1.1.1#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:503:c27::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:7fd::1#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 192.33.4.12#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:1::53#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:1::53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.33.4.12#53
+network unreachable resolving './NS/IN': 192.112.36.4#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.33.4.12#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:200::b#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 192.36.148.17#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:2d::d#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 193.0.14.129#53
+network unreachable resolving './NS/IN': 198.97.190.53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:dc3::35#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:dc3::35#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.112.36.4#53
+network unreachable resolving './NS/IN': 199.7.83.42#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.112.36.4#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 199.9.14.201#53
+network unreachable resolving './NS/IN': 199.7.91.13#53
+network unreachable resolving './NS/IN': 202.12.27.33#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:a8::e#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 192.5.5.241#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.36.148.17#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.36.148.17#53
+network unreachable resolving './NS/IN': 192.58.128.30#53
+network unreachable resolving './NS/IN': 192.203.230.10#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.58.128.30#53
+network unreachable resolving './NS/IN': 198.41.0.4#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.58.128.30#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 193.0.14.129#53
+resolver priming query complete
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 193.0.14.129#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 198.97.190.53#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 198.97.190.53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 199.7.83.42#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 199.7.83.42#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:2::c#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:2::c#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 199.9.14.201#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 199.9.14.201#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 199.7.91.13#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 199.7.91.13#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 202.12.27.33#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 202.12.27.33#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:500:12::d0d#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:500:12::d0d#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.5.5.241#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.5.5.241#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 192.203.230.10#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 192.203.230.10#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:7fe::53#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:7fe::53#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 198.41.0.4#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 198.41.0.4#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:9f::42#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:1::53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:1::53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:2d::d#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:2d::d#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:200::b#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:200::b#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:dc3::35#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:dc3::35#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.112.36.4#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.112.36.4#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:7fd::1#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:2f::f#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:a8::e#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.36.148.17#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.36.148.17#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.58.128.30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.58.128.30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:2::c#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:2::c#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 199.7.83.42#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 199.7.83.42#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 198.97.190.53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 198.97.190.53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 199.7.91.13#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 199.7.91.13#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 199.9.14.201#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 199.9.14.201#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 202.12.27.33#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 202.12.27.33#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:500:12::d0d#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:500:12::d0d#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 193.0.14.129#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 193.0.14.129#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.5.5.241#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.5.5.241#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.203.230.10#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.203.230.10#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:7fe::53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:7fe::53#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 2001:503:c27::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 2001:503:c27::2:30#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 192.33.4.12#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 192.33.4.12#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/A/IN': 198.41.0.4#53
+network unreachable resolving '2.centos.pool.ntp.org.localdomain/AAAA/IN': 198.41.0.4#53
+network unreachable resolving 'kolobok.localdomain/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'kolobok.localdomain/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving 'kolobok.localdomain/A/IN': 2001:500:2d::d#53
+network unreachable resolving 'kolobok.localdomain/AAAA/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving 'kolobok.localdomain/A/IN': 2001:dc3::35#53
+network unreachable resolving 'kolobok.localdomain/AAAA/IN': 2001:dc3::35#53
+network unreachable resolving 'kolobok.localdomain/A/IN': 2001:500:200::b#53
+network unreachable resolving 'kolobok.localdomain/AAAA/IN': 2001:500:200::b#53
+network unreachable resolving 'kolobok.localdomain/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'kolobok.localdomain/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+resolver priming query complete
+network unreachable resolving 'kolobok/A/IN': 2001:500:2d::d#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:500:2d::d#53
+network unreachable resolving 'kolobok/A/IN': 2001:dc3::35#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:dc3::35#53
+network unreachable resolving 'kolobok/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:500:2f::f#53
+network unreachable resolving 'kolobok/A/IN': 2001:500:200::b#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:500:200::b#53
+network unreachable resolving 'kolobok/A/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'kolobok/A/IN': 2001:500:a8::e#53
+network unreachable resolving 'kolobok/AAAA/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:9f::42#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:9f::42#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:7fd::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:7fd::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:1::53#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:1::53#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:f::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:f::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:e::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:e::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:48::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:48::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:c::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:c::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:40::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:40::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2001:500:b::1#53
+network unreachable resolving 'extensions.gnome.org/AAAA/IN': 2001:500:b::1#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2620:52:3:1:5054:ff:fec7:bbd0#53
+network unreachable resolving 'extensions.gnome.org/A/IN': 2620:52:3:1:5054:ff:fe90:282b#53
+network unreachable resolving 'org/DNSKEY/IN': 2001:500:b::1#53
+network unreachable resolving 'org/DNSKEY/IN': 2001:500:40::1#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:678:e:104::53#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:678:e:104::53#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2001:678:5::16#53
+network unreachable resolving 'ns.axu.tm/AAAA/IN': 2001:678:5::16#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2a00:13f0:0:3::aaaa#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2a00:13f0:0:3::aaaa#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2001:678:4::16#53
+network unreachable resolving 'ns.axu.tm/AAAA/IN': 2001:678:4::16#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:678:20::30#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:678:20::30#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:708:10:53::53#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2607:feb8::5:8#53
+network unreachable resolving 'ns.axu.tm/AAAA/IN': 2607:feb8::5:8#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2001:470:1f07:d0b::22#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:708:10:53::53#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2620:10a:80ac::190#53
+network unreachable resolving 'ns.axu.tm/AAAA/IN': 2001:470:1f07:d0b::22#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2001:470:1f1d:244::44#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2620:10a:80ac::190#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:678:a0::aaaa#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:678:a0::aaaa#53
+network unreachable resolving 'ns.axu.tm/AAAA/IN': 2001:470:1f1d:244::44#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:67c:1010:6::53#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:67c:1010:6::53#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:678:4::e#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:678:4::e#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:500:14:6098:ad::1#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:500:14:6098:ad::1#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2a01:3f0:0:302::53#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2a01:3f0:0:302::53#53
+network unreachable resolving 'ns.axu.tm/A/IN': 2001:1430:a:35::35#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2620:10a:80eb::2#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2620:10a:80eb::2#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:678:5::26#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:678:5::26#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2620:10a:80ec::2#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2620:10a:80ec::2#53
+network unreachable resolving 'ns.trex.fi/AAAA/IN': 2001:67c:2b0:15::35#53
+network unreachable resolving 'ns.trex.fi/A/IN': 2001:67c:2b0:15::35#53
+network unreachable resolving 'openshift.gnome.org/AAAA/IN': 2001:67c:2b0:15::35#53
+network unreachable resolving 'openshift.gnome.org/A/IN': 2001:67c:2b0:15::35#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:83eb::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:eea3::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:eea3::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:502:8cc::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:502:8cc::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:502:7094::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:d2d::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:d2d::30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'ns10.fi.basen.net/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'ns10.fi.basen.net/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:503:d2d::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:d2d::30#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2001:503:d414::30#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns4-64.akam.net/A/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns4-64.akam.net/AAAA/IN': 2001:503:d414::30#53
+network unreachable resolving 'ns4-64.akam.net/A/IN': 2600:1401:1::43#53
+network unreachable resolving 'ns4-64.akam.net/AAAA/IN': 2600:1401:1::43#53
+network unreachable resolving 'ns4-64.akam.net/A/IN': 2600:1401:2::43#53
+network unreachable resolving 'ns4-64.akam.net/AAAA/IN': 2600:1401:2::43#53
+network unreachable resolving 'ns-258.awsdns-32.com/AAAA/IN': 2600:9000:5300:2100::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/AAAA/IN': 2600:9000:5306:e000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/AAAA/IN': 2600:9000:5302:6000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/AAAA/IN': 2600:9000:5304:a000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5306:e000::1#53
+network unreachable resolving 'ns-258.awsdns-32.com/A/IN': 2600:9000:5300:2100::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/AAAA/IN': 2600:9000:5305:5400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5305:5400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/AAAA/IN': 2600:9000:5307:9400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5307:9400::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/AAAA/IN': 2600:9000:5303:1600::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5303:1600::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/AAAA/IN': 2600:9000:5301:d500::1#53
+network unreachable resolving 'ns-679.awsdns-20.net/A/IN': 2600:9000:5301:d500::1#53
+network unreachable resolving 'location.services.mozilla.com/A/IN': 2600:9000:5301:200::1#53
+network unreachable resolving 'location.services.mozilla.com/AAAA/IN': 2600:9000:5301:200::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5304:9600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/AAAA/IN': 2600:9000:5304:9600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5306:d600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/AAAA/IN': 2600:9000:5306:d600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5302:5600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/AAAA/IN': 2600:9000:5302:5600::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/A/IN': 2600:9000:5300:1700::1#53
+network unreachable resolving 'ns-178.awsdns-22.com/AAAA/IN': 2600:9000:5300:1700::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2401:fd80:404::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2a01:618:404::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2a01:618:400::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2401:fd80:400::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5300:3000::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/A/IN': 2600:9000:5300:3000::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5307:8c00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5303:e00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5304:af00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/A/IN': 2600:9000:5304:af00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5301:cd00::1#53
+network unreachable resolving 'ns-614.awsdns-12.net/A/IN': 2600:9000:5305:4c00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5302:6f00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/A/IN': 2600:9000:5302:6f00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/AAAA/IN': 2600:9000:5306:ef00::1#53
+network unreachable resolving 'ns-377.awsdns-47.com/A/IN': 2600:9000:5306:ef00::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/AAAA/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/A/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-614.awsdns-12.net/AAAA/IN': 2600:9000:5303:e00::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5301:7900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5303:b900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5305:fc00::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/A/IN': 2600:9000:5307:3d00::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/AAAA/IN': 2600:9000:5306:4700::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/AAAA/IN': 2600:9000:5302:c900::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/AAAA/IN': 2600:9000:5300:8700::1#53
+network unreachable resolving 'ns-1084.awsdns-07.org/AAAA/IN': 2600:9000:5304:a00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/A/IN': 2600:9000:5304:2000::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5304:2000::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/A/IN': 2600:9000:5300:9d00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5300:9d00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/A/IN': 2600:9000:5302:df00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5302:df00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/A/IN': 2600:9000:5306:5d00::1#53
+network unreachable resolving 'ns-1260.awsdns-29.org/AAAA/IN': 2600:9000:5306:5d00::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5300:b700::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5300:b700::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5304:3a00::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5304:3a00::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5302:f900::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5302:f900::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/AAAA/IN': 2600:9000:5306:7700::1#53
+network unreachable resolving 'ns-1471.awsdns-55.org/A/IN': 2600:9000:5306:7700::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5303:b900::1#53
+network unreachable resolving 'ns-1995.awsdns-57.co.uk/AAAA/IN': 2600:9000:5301:7900::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/A/IN': 2600:9000:5301:4e00::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/A/IN': 2600:9000:5305:d100::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/A/IN': 2600:9000:5307:1200::1#53
+network unreachable resolving 'ns-1655.awsdns-14.co.uk/A/IN': 2600:9000:5303:8e00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5303:b800::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5305:fb00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5307:3c00::1#53
+network unreachable resolving 'ns-1986.awsdns-56.co.uk/A/IN': 2600:9000:5301:7800::1#53
+network unreachable resolving 'mirrors.fedoraproject.org/AAAA/IN': 2001:4178:2:1269:dead:beef:cafe:fed5#53
+network unreachable resolving 'mirrors.fedoraproject.org/AAAA/IN': 2610:28:3090:3001:dead:beef:cafe:fed5#53
+network unreachable resolving 'any.ca-servers.ca/A/IN': 2001:500:a7::2#53
+network unreachable resolving 'any.ca-servers.ca/A/IN': 2001:500:83::1#53
+network unreachable resolving 'any.ca-servers.ca/A/IN': 2620:10a:80ba::68#53
+network unreachable resolving 'any.ca-servers.ca/A/IN': 2620:10a:8053::2#53
+network unreachable resolving 'any.ca-servers.ca/AAAA/IN': 2620:10a:8053::2#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2a02:e180:8::1#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2600:2000:1000::21#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2001:500:94:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2600:2000:1001::21#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2001:500:90:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2001:500:90:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/A/IN': 2600:2000:1000::21#53
+network unreachable resolving 'dns1.udel.edu/AAAA/IN': 2607:f470:1002::2:3#53
+network unreachable resolving 'dns1.udel.edu/AAAA/IN': 2607:f470:1003::3:c#53
+network unreachable resolving 'dns1.udel.edu/AAAA/IN': 2607:f470:1001::1:a#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2a03:b0c0:2:d0::20:1001#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2a03:b0c0:2:d0::20:1001#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2604:a880:2:d0::1ce8:7001#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2604:a880:2:d0::1ce8:7001#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2a03:b0c0:3:d0::c0:4001#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2a03:b0c0:3:d0::c0:4001#53
+network unreachable resolving 'ns1.eu.bitnames.com/A/IN': 2604:1380:3000:8800::1#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2604:1380:3000:8800::1#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2001:500:14:6004:ad::1#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2001:418:3f4::5#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2620:0:872::231:3#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2a05:91c0:1505:5::c924#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2a05:91c0:1505:5::c924#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2600:3c03::f03c:91ff:fe83:79dd#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2600:3c03::f03c:91ff:fe83:79dd#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:67c:25dc:c::c#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:67c:25dc:c::c#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:8e0:ffff:1::282#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:8e0:ffff:1::282#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving 'google.com/A/IN': 2001:4860:4802:36::a#53
+network unreachable resolving 'google.com/A/IN': 2001:4860:4802:34::a#53
+network unreachable resolving 'google.com/A/IN': 2001:4860:4802:32::a#53
+network unreachable resolving 'google.com/A/IN': 2001:4860:4802:38::a#53
+network unreachable resolving 'google.com/AAAA/IN': 2001:4860:4802:34::a#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2620:7:6000::ffff:c759:df35#53
+network unreachable resolving 'g.ntpns.org/A/IN': 2620:7:6000::ffff:c759:df35#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2400:6180:0:d1::695:5001#53
+network unreachable resolving 'g.ntpns.org/AAAA/IN': 2620:7:6000::ffff:c759:df35#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2a03:7900:104:1::2#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:67c:25dc:c::c#53
+network unreachable resolving 'g.ntpns.org/A/IN': 2400:6180:0:d1::695:5001#53
+network unreachable resolving 'g.ntpns.org/AAAA/IN': 2400:6180:0:d1::695:5001#53
+network unreachable resolving 'g.ntpns.org/A/IN': 2a03:7900:104:1::2#53
+network unreachable resolving 'g.ntpns.org/AAAA/IN': 2a03:7900:104:1::2#53
+network unreachable resolving 'g.ntpns.org/A/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving 'g.ntpns.org/AAAA/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving 'g.ntpns.org/A/IN': 2001:67c:25dc:c::c#53
+network unreachable resolving 'g.ntpns.org/AAAA/IN': 2001:67c:25dc:c::c#53
+network unreachable resolving 'less.cogeco.net/A/IN': 2001:1970:c06e:c0::46#53
+network unreachable resolving 'less.cogeco.net/A/IN': 2001:1970:c0c0:6ec0::46#53
+network unreachable resolving 'clients2.googleusercontent.com/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'avygoaa.localdomain/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'hcqrqzpcqcp.localdomain/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'wzptfdlpibwiwtc.localdomain/A/IN': 2001:500:2f::f#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2606:4700:58::adf5:3b65#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2a06:98c1:50::ac40:208f#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2803:f800:50::6ca2:c165#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2803:f800:50::6ca2:c08f#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2a06:98c1:50::ac40:2165#53
+network unreachable resolving 'releases.ansible.com/AAAA/IN': 2606:4700:50::adf5:3a8f#53
+network unreachable resolving 'releases.ansible.com/A/IN': 2803:f800:50::6ca2:c08f#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5304:2400::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/AAAA/IN': 2600:9000:5304:2400::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5307:8700::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/AAAA/IN': 2600:9000:5307:8700::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5300:a100::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/AAAA/IN': 2600:9000:5300:a100::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5303:900::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/AAAA/IN': 2600:9000:5303:900::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5306:6100::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/AAAA/IN': 2600:9000:5306:6100::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5302:e300::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5301:c800::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/AAAA/IN': 2600:9000:5301:c800::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5305:4700::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/AAAA/IN': 2600:9000:5302:e300::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/AAAA/IN': 2600:9000:5305:4700::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/AAAA/IN': 2600:9000:5305:fa00::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/AAAA/IN': 2600:9000:5303:b700::1#53
+network unreachable resolving 'ns-418.awsdns-52.com/A/IN': 2600:9000:5300:3500::1#53
+network unreachable resolving 'ns-418.awsdns-52.com/A/IN': 2600:9000:5302:7400::1#53
+network unreachable resolving 'ns-1306.awsdns-35.org/A/IN': 2600:9000:5302:e500::1#53
+network unreachable resolving 'ns-1306.awsdns-35.org/A/IN': 2600:9000:5306:6300::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/AAAA/IN': 2600:9000:5307:3b00::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/AAAA/IN': 2600:9000:5301:7700::1#53
+network unreachable resolving 'ns-418.awsdns-52.com/A/IN': 2600:9000:5304:b400::1#53
+network unreachable resolving 'ns-418.awsdns-52.com/A/IN': 2600:9000:5306:f400::1#53
+network unreachable resolving 'ns-1306.awsdns-35.org/A/IN': 2600:9000:5300:a300::1#53
+network unreachable resolving 'ns-1306.awsdns-35.org/A/IN': 2600:9000:5304:2600::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/A/IN': 2600:9000:5303:b700::1#53
+network unreachable resolving 'ns-1389.awsdns-45.org/A/IN': 2600:9000:5300:ad00::1#53
+network unreachable resolving 'ns-1389.awsdns-45.org/A/IN': 2600:9000:5302:ef00::1#53
+network unreachable resolving 'ns-1389.awsdns-45.org/A/IN': 2600:9000:5306:6d00::1#53
+network unreachable resolving 'ns-1389.awsdns-45.org/A/IN': 2600:9000:5304:3000::1#53
+network unreachable resolving 'ns-1389.awsdns-45.org/AAAA/IN': 2600:9000:5302:ef00::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/AAAA/IN': 2600:9000:5307:9200::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/A/IN': 2600:9000:5307:9200::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/A/IN': 2600:9000:5304:ae00::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/AAAA/IN': 2600:9000:5304:ae00::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/AAAA/IN': 2600:9000:5305:5200::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/A/IN': 2600:9000:5305:5200::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/A/IN': 2600:9000:5306:ee00::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/AAAA/IN': 2600:9000:5306:ee00::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/AAAA/IN': 2600:9000:5301:d300::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/A/IN': 2600:9000:5301:d300::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/AAAA/IN': 2600:9000:5303:1400::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/A/IN': 2600:9000:5302:6e00::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/AAAA/IN': 2600:9000:5302:6e00::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/A/IN': 2600:9000:5300:2f00::1#53
+network unreachable resolving 'ns-656.awsdns-18.net/A/IN': 2600:9000:5303:1400::1#53
+network unreachable resolving 'ns-368.awsdns-46.com/AAAA/IN': 2600:9000:5300:2f00::1#53
+network unreachable resolving 'ns-1597.awsdns-07.co.uk/AAAA/IN': 2600:9000:5307:b00::1#53
+network unreachable resolving 'ns-1597.awsdns-07.co.uk/AAAA/IN': 2600:9000:5305:ca00::1#53
+network unreachable resolving 'ns-1597.awsdns-07.co.uk/AAAA/IN': 2600:9000:5301:4700::1#53
+network unreachable resolving 'ns-1597.awsdns-07.co.uk/AAAA/IN': 2600:9000:5303:8700::1#53
+network unreachable resolving 'ns-1828.awsdns-36.co.uk/AAAA/IN': 2600:9000:5305:e700::1#53
+network unreachable resolving 'ns-1828.awsdns-36.co.uk/AAAA/IN': 2600:9000:5303:a400::1#53
+network unreachable resolving 'ns-1828.awsdns-36.co.uk/AAAA/IN': 2600:9000:5301:6400::1#53
+network unreachable resolving 'ns-1828.awsdns-36.co.uk/AAAA/IN': 2600:9000:5307:2800::1#53
+network unreachable resolving 'ns-1828.awsdns-36.co.uk/A/IN': 2600:9000:5307:2800::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/A/IN': 2600:9000:5305:6d00::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/AAAA/IN': 2600:9000:5305:6d00::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/A/IN': 2600:9000:5307:2400::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/AAAA/IN': 2600:9000:5307:2400::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/A/IN': 2600:9000:5301:7000::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/AAAA/IN': 2600:9000:5301:7000::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/A/IN': 2600:9000:5302:9000::1#53
+network unreachable resolving 'd2h67oheeuigaw.cloudfront.net/AAAA/IN': 2600:9000:5302:9000::1#53
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on ::1#53
+no longer listening on 10.1.1.1#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 4
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.1.10.in-addr.arpa/IN: loaded serial 3
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone bubliks.net/IN: loaded serial 3
+zone localhost/IN: loaded serial 0
+all zones loaded
+running
+zone bubliks.net/IN: sending notifies (serial 3)
+zone 1.1.10.in-addr.arpa/IN: sending notifies (serial 3)
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:d414::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:83eb::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:502:8cc::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:500:d937::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:eea3::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:502:7094::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:500:856e::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:503:d2d::30#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:500:856e::30#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:503:eea3::30#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:500:d937::30#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:503:83eb::30#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:4860:4802:36::a#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:4860:4802:34::a#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:4860:4802:32::a#53
+network unreachable resolving 'packages.cloud.google.com/A/IN': 2001:4860:4802:38::a#53
+network unreachable resolving 'packages.cloud.google.com/AAAA/IN': 2001:4860:4802:34::a#53
+network unreachable resolving 'google.com/DS/IN': 2001:503:83eb::30#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:40::1#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:f::1#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:48::1#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:b::1#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:e::1#53
+network unreachable resolving 'mirrorlist.centos.org/A/IN': 2001:500:c::1#53
+network unreachable resolving 'mirror.dst.ca/AAAA/IN': 2001:500:83::1#53
+network unreachable resolving 'mirror.dst.ca/AAAA/IN': 2620:10a:80ba::68#53
+network unreachable resolving 'mirror.dst.ca/AAAA/IN': 2620:10a:8053::2#53
+network unreachable resolving 'mirror.dst.ca/AAAA/IN': 2001:500:a7::2#53
+network unreachable resolving 'mirror.dst.ca/A/IN': 2620:10a:80ba::68#53
+network unreachable resolving 'less.cogeco.net/AAAA/IN': 2001:1970:c06e:c0::46#53
+network unreachable resolving 'less.cogeco.net/AAAA/IN': 2001:1970:c0c0:6ec0::46#53
+network unreachable resolving 'less.cogeco.net/A/IN': 2001:1970:c0c0:6ec0::46#53
+network unreachable resolving 'ns3.p20.dynect.net/A/IN': 2600:2000:1000::21#53
+network unreachable resolving 'ns3.p20.dynect.net/A/IN': 2a02:e180:8::1#53
+network unreachable resolving 'ns3.p20.dynect.net/A/IN': 2001:500:90:1::136#53
+network unreachable resolving 'ns3.p20.dynect.net/A/IN': 2001:500:94:1::136#53
+network unreachable resolving 'ns3.p20.dynect.net/A/IN': 2600:2000:1001::21#53
+network unreachable resolving 'ns2.p20.dynect.net/A/IN': 2001:500:94:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2001:500:94:1::136#53
+network unreachable resolving 'ns2.p20.dynect.net/A/IN': 2001:500:90:1::136#53
+network unreachable resolving 'ns1.p20.dynect.net/AAAA/IN': 2001:500:90:1::136#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1001::1:a#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1002::2:3#53
+network unreachable resolving 'dns1.udel.edu/A/IN': 2607:f470:1003::3:c#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2a03:b0c0:2:d0::20:1001#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2a03:b0c0:3:d0::c0:4001#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2604:1380:3000:8800::1#53
+network unreachable resolving 'ns1.eu.bitnames.com/AAAA/IN': 2604:a880:2:d0::1ce8:7001#53
+network unreachable resolving 'ns2.eu.bitnames.com/AAAA/IN': 2a03:b0c0:3:d0::c0:4001#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2001:418:3f4::5#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2620:0:872::231:3#53
+network unreachable resolving 'anyns.pch.net/A/IN': 2001:500:14:6004:ad::1#53
+network unreachable resolving 'anyns.pch.net/AAAA/IN': 2620:0:872::231:3#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2001:67c:16c8:2242::1#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2400:6180:0:d1::695:5001#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2400:6180:0:d1::695:5001#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2a02:a00:2000:89::1#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2a02:a00:2000:89::1#53
+network unreachable resolving '2.centos.pool.ntp.org/A/IN': 2600:3c00::f03c:91ff:fe8c:cf2c#53
+network unreachable resolving '2.centos.pool.ntp.org/AAAA/IN': 2600:3c00::f03c:91ff:fe8c:cf2c#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:13c7:7010::53#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2620:37:e000::53#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:67c:e0::1#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:43f8:110::10#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:500:87::87#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:dd8:6::101#53
+network unreachable resolving 'r.arin.net/AAAA/IN': 2001:500:14:6050:ad::1#53
+network unreachable resolving 'r.arin.net/AAAA/IN': 2001:500:a9::108#53
+network unreachable resolving 'r.arin.net/AAAA/IN': 2001:500:13::108#53
+network unreachable resolving 'r.arin.net/AAAA/IN': 2001:500:31::108#53
+network unreachable resolving 'r.arin.net/A/IN': 2001:500:13::108#53
+network unreachable resolving 'r.arin.net/A/IN': 2001:500:a9::108#53
+network unreachable resolving '17.172.70.66.in-addr.arpa/PTR/IN': 2001:500:f0::63#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2001:500:14:6100:ad::1#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2001:13c7:7002:3000::14#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2001:dd8:12::53#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2001:67c:e0::7#53
+network unreachable resolving 'arin.authdns.ripe.net/AAAA/IN': 2620:38:2000::53#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2001:500:14:6100:ad::1#53
+network unreachable resolving 'arin.authdns.ripe.net/A/IN': 2620:38:2000::53#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:1986::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:4a83::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:1981::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:4a82::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:4a86::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:1982::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:1983::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:1984::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:4a84::1#53
+network unreachable resolving 'ns19.ovh.net/AAAA/IN': 2001:41d0:1:4a81::1#53
+network unreachable resolving 'ns19.ovh.net/A/IN': 2001:41d0:1:4a82::1#53
+network unreachable resolving 'in-addr.arpa/DNSKEY/IN': 2001:500:87::87#53
+network unreachable resolving '70.66.in-addr.arpa/DS/IN': 2001:500:127::30#53
+network unreachable resolving '70.66.in-addr.arpa/DS/IN': 2001:67c:e0::10#53
+network unreachable resolving '70.66.in-addr.arpa/DS/IN': 2001:500:13::63#53
+network unreachable resolving 'dns3.easydns.org/A/IN': 2620:49:3::10#53
+network unreachable resolving 'dns3.easydns.org/AAAA/IN': 2620:49:3::10#53
+network unreachable resolving '132.0.108.206.in-addr.arpa/PTR/IN': 2620:49:3::10#53
+network unreachable resolving 'dns1.easydns.com/AAAA/IN': 2400:cb00:2049:1::a29f:1835#53
+network unreachable resolving 'dns2.easydns.net/A/IN': 2400:cb00:2049:1::c629:defe#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:1b::1#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:19::1#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:49::1#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:41::1#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:1a::1#53
+network unreachable resolving 'dns4.easydns.info/A/IN': 2001:500:1c::1#53
+network unreachable resolving 'dns4.easydns.info/AAAA/IN': 2001:500:19::1#53
+network unreachable resolving 'dns4.easydns.info/AAAA/IN': 2620:49:4::10#53
+network unreachable resolving 'io/DNSKEY/IN': 2a01:8840:a0::17#53
+network unreachable resolving 'io/DNSKEY/IN': 2a01:8840:9f::17#53
+network unreachable resolving 'redirect.k8s.io/A/IN': 2001:4860:4802:32::6d#53
+network unreachable resolving 'redirect.k8s.io/AAAA/IN': 2001:4860:4802:32::6d#53
+network unreachable resolving 'redirect.k8s.io/A/IN': 2001:4860:4802:36::6d#53
+network unreachable resolving 'redirect.k8s.io/AAAA/IN': 2001:4860:4802:36::6d#53
+network unreachable resolving 'redirect.k8s.io/A/IN': 2001:4860:4802:38::6d#53
+network unreachable resolving 'redirect.k8s.io/AAAA/IN': 2001:4860:4802:38::6d#53
+network unreachable resolving 'redirect.k8s.io/A/IN': 2001:4860:4802:34::6d#53
+network unreachable resolving 'redirect.k8s.io/AAAA/IN': 2001:4860:4802:34::6d#53
+network unreachable resolving 'k8s.gcr.io/AAAA/IN': 2a01:8840:9f::17#53
+network unreachable resolving 'k8s.gcr.io/A/IN': 2a01:8840:9f::17#53
+network unreachable resolving 'gcr.io/DS/IN': 2a01:8840:9f::17#53
+client @0x7f0c8808c520 10.88.0.3#45551 (8765342023369504184.1461180521817046935): query (cache) '8765342023369504184.1461180521817046935/HINFO/IN' denied
+client @0x7f0c8808c520 10.88.0.2#49465 (8456608195536383274.8624104725690707644): query (cache) '8456608195536383274.8624104725690707644/HINFO/IN' denied
+network unreachable resolving 'cloud.weave.works/AAAA/IN': 2001:dcd:1::7#53
+network unreachable resolving 'cloud.weave.works/AAAA/IN': 2001:dcd:2::7#53
+network unreachable resolving 'cloud.weave.works/AAAA/IN': 2001:dcd:4::7#53
+network unreachable resolving 'cloud.weave.works/AAAA/IN': 2001:dcd:3::7#53
+network unreachable resolving 'cloud.weave.works/A/IN': 2001:dcd:3::7#53
+network unreachable resolving 'cloud.weave.works/A/IN': 2001:dcd:4::7#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'connie.ns.cloudflare.com/A/IN': 2001:503:39c1::30#53
+network unreachable resolving 'connie.ns.cloudflare.com/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'stan.ns.cloudflare.com/AAAA/IN': 2001:503:39c1::30#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:7e2#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:209#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:606#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:506#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:121#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:21#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:937#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:408#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:30b#53
+network unreachable resolving 'stan.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:837#53
+network unreachable resolving 'connie.ns.cloudflare.com/AAAA/IN': 2400:cb00:2049:1::a29f:937#53
+network unreachable resolving 'connie.ns.cloudflare.com/AAAA/IN': 2400:cb00:2049:1::a29f:606#53
+network unreachable resolving 'connie.ns.cloudflare.com/AAAA/IN': 2400:cb00:2049:1::a29f:30b#53
+network unreachable resolving 'connie.ns.cloudflare.com/A/IN': 2400:cb00:2049:1::a29f:937#53
+network unreachable resolving 'weave.works/DS/IN': 2001:dcd:3::7#53
+network unreachable resolving 'works/DNSKEY/IN': 2001:dcd:3::7#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2a06:98c1:50::ac40:21eb#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2a06:98c1:50::ac40:21eb#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2a06:98c1:50::ac40:20f7#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2a06:98c1:50::ac40:20f7#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2606:4700:58::adf5:3beb#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2606:4700:58::adf5:3beb#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2803:f800:50::6ca2:c0f7#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2803:f800:50::6ca2:c0f7#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2803:f800:50::6ca2:c1eb#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2803:f800:50::6ca2:c1eb#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2606:4700:50::adf5:3af7#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2606:4700:50::adf5:3af7#53
+network unreachable resolving 'ns-349.awsdns-43.com/AAAA/IN': 2600:9000:5300:2c00::1#53
+network unreachable resolving 'ns-349.awsdns-43.com/AAAA/IN': 2600:9000:5304:ab00::1#53
+network unreachable resolving 'ns-349.awsdns-43.com/AAAA/IN': 2600:9000:5306:eb00::1#53
+network unreachable resolving 'ns-349.awsdns-43.com/AAAA/IN': 2600:9000:5302:6b00::1#53
+network unreachable resolving 'ns-349.awsdns-43.com/A/IN': 2600:9000:5304:ab00::1#53
+network unreachable resolving 'ns-1047.awsdns-02.org/AAAA/IN': 2600:9000:5306:4200::1#53
+network unreachable resolving 'ns-1047.awsdns-02.org/AAAA/IN': 2600:9000:5304:500::1#53
+network unreachable resolving 'ns-1047.awsdns-02.org/AAAA/IN': 2600:9000:5300:8200::1#53
+network unreachable resolving 'ns-1047.awsdns-02.org/AAAA/IN': 2600:9000:5302:c400::1#53
+network unreachable resolving 'ns-1006.awsdns-61.net/A/IN': 2600:9000:5307:bd00::1#53
+network unreachable resolving 'ns-1006.awsdns-61.net/A/IN': 2600:9000:5305:7d00::1#53
+network unreachable resolving 'ns-1006.awsdns-61.net/A/IN': 2600:9000:5301:fe00::1#53
+network unreachable resolving 'ns-1006.awsdns-61.net/A/IN': 2600:9000:5303:3f00::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2a01:618:404::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2a01:618:400::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2401:fd80:400::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2401:fd80:404::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2001:502:ad09::3#53
+network unreachable resolving 'ns-1006.awsdns-61.net/AAAA/IN': 2600:9000:5307:bd00::1#53
+network unreachable resolving 'frontend.prod.weave.works/AAAA/IN': 2600:9000:5304:1700::1#53
+network unreachable resolving 'frontend.prod.weave.works/A/IN': 2600:9000:5304:1700::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2600:9000:5305:d600::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2600:9000:5301:5300::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2600:9000:5303:9300::1#53
+network unreachable resolving 'ns-1688.awsdns-19.co.uk/AAAA/IN': 2600:9000:5307:1700::1#53
+network unreachable resolving 'ns-1168.awsdns-18.org/A/IN': 2600:9000:5302:d400::1#53
+network unreachable resolving 'ns-1168.awsdns-18.org/A/IN': 2600:9000:5306:5200::1#53
+network unreachable resolving 'ns-1168.awsdns-18.org/A/IN': 2600:9000:5304:1500::1#53
+network unreachable resolving 'ns-1168.awsdns-18.org/A/IN': 2600:9000:5300:9200::1#53
+network unreachable resolving 'ns-1168.awsdns-18.org/AAAA/IN': 2600:9000:5302:d400::1#53
+network unreachable resolving 'ns-421.awsdns-52.com/A/IN': 2600:9000:5306:f400::1#53
+network unreachable resolving 'ns-421.awsdns-52.com/A/IN': 2600:9000:5300:3500::1#53
+network unreachable resolving 'ns-421.awsdns-52.com/A/IN': 2600:9000:5302:7400::1#53
+network unreachable resolving 'ns-421.awsdns-52.com/A/IN': 2600:9000:5304:b400::1#53
+network unreachable resolving 'ns-421.awsdns-52.com/AAAA/IN': 2600:9000:5304:b400::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/A/IN': 2600:9000:5301:c100::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/A/IN': 2600:9000:5307:8000::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/A/IN': 2600:9000:5305:4000::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/A/IN': 2600:9000:5303:200::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/AAAA/IN': 2600:9000:5303:200::1#53
+network unreachable resolving 'ns-513.awsdns-00.net/AAAA/IN': 2600:9000:5307:8000::1#53
+network unreachable resolving 'ns-1827.awsdns-36.co.uk/AAAA/IN': 2600:9000:5303:a400::1#53
+network unreachable resolving 'ns-1827.awsdns-36.co.uk/AAAA/IN': 2600:9000:5307:2800::1#53
+network unreachable resolving 'ns-1827.awsdns-36.co.uk/AAAA/IN': 2600:9000:5305:e700::1#53
+network unreachable resolving 'ns-1827.awsdns-36.co.uk/AAAA/IN': 2600:9000:5301:6400::1#53
+network unreachable resolving 'ns-1827.awsdns-36.co.uk/A/IN': 2600:9000:5305:e700::1#53
+network unreachable resolving 'auth.docker.io/AAAA/IN': 2600:9000:5304:9000::1#53
+network unreachable resolving 'auth.docker.io/A/IN': 2600:9000:5304:9000::1#53
+network unreachable resolving 'auth.docker.io/AAAA/IN': 2600:9000:5307:2300::1#53
+network unreachable resolving 'auth.docker.io/A/IN': 2600:9000:5307:2300::1#53
+network unreachable resolving 'auth.docker.io/AAAA/IN': 2600:9000:5302:100::1#53
+network unreachable resolving 'auth.docker.io/A/IN': 2600:9000:5302:100::1#53
+network unreachable resolving 'auth.docker.io/AAAA/IN': 2600:9000:5301:a500::1#53
+network unreachable resolving 'auth.docker.io/A/IN': 2600:9000:5301:a500::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5300:a100::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5302:e300::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5304:2400::1#53
+network unreachable resolving 'ns-1289.awsdns-33.org/A/IN': 2600:9000:5306:6100::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5305:4700::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5301:c800::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5307:8700::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/A/IN': 2600:9000:5303:900::1#53
+network unreachable resolving 'ns-568.awsdns-07.net/AAAA/IN': 2600:9000:5301:c800::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/A/IN': 2600:9000:5305:fa00::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/A/IN': 2600:9000:5301:7700::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/A/IN': 2600:9000:5307:3b00::1#53
+network unreachable resolving 'ns-1981.awsdns-55.co.uk/A/IN': 2600:9000:5303:b700::1#53
+received control channel command 'reload'
+loading configuration from '/etc/named.conf'
+unable to open '/etc/bind.keys'; using built-in keys instead
+looking for GeoIP2 databases in '/usr/share/GeoIP'
+opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-Country.mmdb'
+opened GeoIP2 database '/usr/share/GeoIP/GeoLite2-City.mmdb'
+using default UDP/IPv4 port range: [32768, 60999]
+using default UDP/IPv6 port range: [32768, 60999]
+sizing zone task pool based on 8 zones
+none:105: 'max-cache-size 90%' - setting to 6991MB (out of 7768MB)
+automatic empty zone: 10.IN-ADDR.ARPA
+automatic empty zone: 16.172.IN-ADDR.ARPA
+automatic empty zone: 17.172.IN-ADDR.ARPA
+automatic empty zone: 18.172.IN-ADDR.ARPA
+automatic empty zone: 19.172.IN-ADDR.ARPA
+automatic empty zone: 20.172.IN-ADDR.ARPA
+automatic empty zone: 21.172.IN-ADDR.ARPA
+automatic empty zone: 22.172.IN-ADDR.ARPA
+automatic empty zone: 23.172.IN-ADDR.ARPA
+automatic empty zone: 24.172.IN-ADDR.ARPA
+automatic empty zone: 25.172.IN-ADDR.ARPA
+automatic empty zone: 26.172.IN-ADDR.ARPA
+automatic empty zone: 27.172.IN-ADDR.ARPA
+automatic empty zone: 28.172.IN-ADDR.ARPA
+automatic empty zone: 29.172.IN-ADDR.ARPA
+automatic empty zone: 30.172.IN-ADDR.ARPA
+automatic empty zone: 31.172.IN-ADDR.ARPA
+automatic empty zone: 168.192.IN-ADDR.ARPA
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 127.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+automatic empty zone: HOME.ARPA
+none:105: 'max-cache-size 90%' - setting to 6991MB (out of 7768MB)
+configuring command channel from '/etc/rndc.key'
+configuring command channel from '/etc/rndc.key'

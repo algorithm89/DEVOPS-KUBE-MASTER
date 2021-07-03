@@ -1,0 +1,40 @@
+
+$TTL 86400
+@   IN  SOA     ns1.bubliks.net. root.bubliks.net. (
+                                              3           ;Serial
+                                              3600        ;Refresh
+                                              1800        ;Retry
+                                              604800      ;Expire
+                                              86400       ;Minimum TTL
+)
+
+;Name Server Information
+@           IN  NS      ns1.bubliks.net.
+@           IN  NS      ns2.bubliks.net.
+@           IN  NS      ns3.bubliks.net.
+@           IN  NS      bubliks.net.
+
+ns1         IN  A       10.1.1.1
+ns2         IN  A       10.1.1.1
+ns3         IN  A       10.1.1.8
+@           IN  A       10.1.1.1
+
+www         IN  A       10.1.1.1
+regv2       IN  A       10.1.1.8
+super       IN  A       10.1.1.8
+cool        IN  A       10.1.1.8
+prom        IN  A       10.1.1.8
+jenkins     IN  A       10.1.1.1
+nexus       IN  A       10.1.1.1
+mail        IN  A       10.1.1.8
+yummy       IN  A       10.1.1.8
+hleb        IN  A       10.1.1.8
+graf        IN  A       10.1.1.8
+info        IN  A       10.1.1.8
+phpinfo     IN  A       10.1.1.1
+kolobok     IN  A       10.1.1.1
+
+
+;CNAME record
+ftp     IN CNAME        www.bubliks.net.
+

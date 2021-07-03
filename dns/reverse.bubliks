@@ -1,0 +1,41 @@
+
+$TTL 86400
+@   IN  SOA     ns1.bubliks.net. root.bubliks.net. (
+                                       3           ;Serial
+                                       3600        ;Refresh
+                                       1800        ;Retry
+                                       604800      ;Expire
+                                       86400       ;Minimum TTL
+)
+
+;Name Server Information
+@      IN      NS         ns1.bubliks.net.
+@      IN      NS         ns2.bubliks.net.
+@      IN      NS         ns3.bubliks.net.
+@      IN      PTR        bubliks.net.
+
+;Reverse lookup for Name Server
+
+
+ns1    IN A 10.1.1.1
+ns2    IN A 10.1.1.1
+ns3    IN A 10.1.1.8
+
+
+
+;PTR Record IP address to HostName
+1      IN  PTR     www.bubliks.net.
+8      IN  PTR     regv2.bubliks.net.
+1      IN  PTR     bubliks.net.
+1      IN  PTR     phpinfo.bubliks.net.
+1      IN  PTR     jenkins.bubliks.net.
+1      IN  PTR     kolobok.bubliks.net.
+8      IN  PTR     super.bubliks.net.
+8      IN  PTR     cool.bubliks.net.
+8      IN  PTR     prom.bubliks.net.
+1      IN  PTR     nexus.bubliks.net.
+8      IN  PTR     mail.bubliks.net.
+8      IN  PTR     hleb.bubliks.net.
+8      IN  PTR     graf.bubliks.net.
+
+
