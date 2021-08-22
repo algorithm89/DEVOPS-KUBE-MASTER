@@ -50,11 +50,6 @@ spec:
                - mountPath: /etc/nginx/dhparam.pem
                  name: dhparam
 
-               - mountPath: /etc/nginx/ssl/regv2.crt
-                 name: ssl2crt
-               - mountPath: /etc/nginx/ssl/regv2.key
-                 name: ssl2key
-
         ports:
         - containerPort: 80
         - containerPort: 443
@@ -106,16 +101,6 @@ spec:
         hostPath:
           path: /home/devops/devops/ssl/ssl.crt
           type: FileOrCreate
-
-
-      - name: ssl2key
-        hostPath:
-          path: /home/devops/devops/registry/regv2.key
-          type: FileOrCreate
-
-      - name: ssl2crt
-        hostPath:
-          path: /home/devops/devops/registry/regv2.crt
 
 
       - name: dhparam

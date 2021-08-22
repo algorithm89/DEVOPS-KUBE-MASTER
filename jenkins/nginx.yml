@@ -47,9 +47,9 @@ spec:
                - mountPath: /etc/nginx/dhparam.pem
                  name: dhparam
 
-               - mountPath: /etc/nginx/ssl/regv2.crt
+               - mountPath: /etc/nginx/ssl/ssl.crt
                  name: ssl2crt
-               - mountPath: /etc/nginx/ssl/regv2.key
+               - mountPath: /etc/nginx/ssl/ssl.key
                  name: ssl2key
 
         ports:
@@ -80,12 +80,12 @@ spec:
 
       - name: ssl2key
         hostPath:
-          path: /home/devops/devops/jenkins/regv2.key
+          path: /home/devops/devops/ssl/ssl.key
           type: FileOrCreate
 
       - name: ssl2crt
         hostPath:
-          path: /home/devops/devops/jenkins/regv2.crt
+          path: /home/devops/devops/ssl/ssl.crt
 
 
       - name: dhparam

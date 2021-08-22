@@ -2,3 +2,4 @@
 registry/data/*
 nexus/data/*
 jenkins/data/*
+database/data/*
