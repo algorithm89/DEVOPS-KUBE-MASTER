@@ -1,0 +1,94 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            d0:29:25:a7:b9:1d:0c:80:b2:dc:f2:83:0f:26:73:e5
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=bublini.net
+        Validity
+            Not Before: Oct  8 02:58:43 2021 GMT
+            Not After : Jan 11 02:58:43 2024 GMT
+        Subject: C=CA, ST=QC, L=MTL, O=bubliks, OU=bubliks, CN=jfrog.bubliks.net
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:bd:da:93:5e:37:b8:2c:53:02:d5:da:99:96:ad:
+                    02:0a:eb:b4:6c:cb:7f:55:80:ea:cb:36:a6:d9:c4:
+                    43:e4:49:dc:64:05:cb:3c:72:ed:29:42:1f:31:db:
+                    0d:da:f9:de:1a:fb:e4:b1:c0:20:d9:a3:89:99:93:
+                    54:0c:b0:6f:bf:b3:49:37:dd:e8:b1:af:a1:96:97:
+                    cf:e6:2c:92:06:90:9d:6e:4c:10:2a:cb:cd:cf:9e:
+                    d3:ef:d7:4b:70:3a:fe:90:be:c5:47:7c:97:b6:36:
+                    07:65:a9:3c:e7:47:48:46:03:c7:e5:85:59:d1:35:
+                    e8:78:50:14:f1:0f:9d:16:99:90:06:26:0e:f5:ce:
+                    d6:de:c3:e3:57:c4:cd:14:95:dc:b4:a3:6d:be:a2:
+                    84:13:cf:c6:9a:b6:1b:03:16:9e:75:b0:d7:dc:92:
+                    77:ef:04:a9:8d:ef:8e:54:0c:49:83:ad:11:2d:98:
+                    69:bf:ae:72:b1:f3:60:f6:2b:34:32:52:18:49:59:
+                    7e:39:09:d5:0d:70:4f:e3:c2:1e:3f:f9:9e:d9:e5:
+                    a9:b2:58:66:4a:7c:e3:26:f0:f9:48:f2:4c:eb:c0:
+                    a0:59:9b:a0:db:d6:a3:3f:14:ee:f8:52:28:a3:25:
+                    e8:e4:c2:8d:ed:3f:3a:b3:4c:1b:17:4e:b8:2c:81:
+                    4a:5b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                43:D9:B6:5C:27:59:6E:57:3E:14:AA:F4:92:D2:35:AF:E9:17:DC:4D
+            X509v3 Authority Key Identifier: 
+                keyid:51:09:1A:EF:71:9E:46:A6:EA:66:D9:F5:B8:0B:EB:19:24:05:55:21
+                DirName:/CN=bublini.net
+                serial:7E:B3:9B:AA:39:36:23:02:06:93:9E:7D:35:B1:65:58:6F:11:D5:F0
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:jfrog.bubliks.net, DNS:regv2.bubliks.net, DNS:jenkins.bubliks.net, DNS:bubliks.bubliks.net, DNS:www.bubliks.net, DNS:super.bubliks.net, DNS:prom.bubliks.net, DNS:mail.bubliks.net, DNS:hleb.bubliks.net, DNS:bubliks.net, DNS:graf.bubliks.net, DNS:phpinfo.bubliks.net, DNS:info.bubliks.net, DNS:nexus.bubliks.net, DNS:www.bubliks.net
+    Signature Algorithm: sha256WithRSAEncryption
+         19:2f:83:28:62:33:00:4b:b3:f6:70:60:f1:5d:21:f1:29:ff:
+         8d:3f:f5:32:4b:b1:5d:08:97:f6:f7:ad:3a:f1:29:f2:8e:a4:
+         c7:21:19:0e:8e:41:5c:85:9a:ef:23:c0:34:d2:bd:41:43:3e:
+         3e:70:bd:26:57:b8:c5:09:31:3b:f7:22:11:64:ad:2b:2d:06:
+         bd:cc:dc:dd:96:b2:d3:ad:d6:68:33:fb:7c:8c:69:32:b0:75:
+         e8:86:72:41:3f:1e:b8:4a:8c:37:86:9b:6a:10:6f:07:45:89:
+         da:57:4a:b2:de:88:50:73:9a:7d:cc:e2:97:f2:1b:1d:56:55:
+         9e:37:98:9b:a5:87:67:3b:25:58:a2:93:64:96:56:cb:92:c8:
+         cc:e5:10:ab:da:be:5f:a3:3a:8b:4e:3c:71:75:e5:e9:7c:66:
+         5d:64:28:18:11:bf:f3:47:37:2a:72:f8:56:db:b3:68:bc:69:
+         f4:ec:27:86:63:fa:f3:e7:62:6d:cb:1c:84:67:9d:7f:bd:6b:
+         26:4f:3b:47:75:81:71:1a:2d:0d:b6:2a:36:80:ad:25:45:34:
+         43:d0:ec:29:d6:00:76:ba:6f:b9:2d:07:dd:a4:13:28:bd:0e:
+         eb:44:59:db:63:3f:76:d5:f0:fe:71:01:c4:08:04:84:14:37:
+         05:df:53:49
+-----BEGIN CERTIFICATE-----
+MIIE0zCCA7ugAwIBAgIRANApJae5HQyAstzygw8mc+UwDQYJKoZIhvcNAQELBQAw
+FjEUMBIGA1UEAwwLYnVibGluaS5uZXQwHhcNMjExMDA4MDI1ODQzWhcNMjQwMTEx
+MDI1ODQzWjBoMQswCQYDVQQGEwJDQTELMAkGA1UECAwCUUMxDDAKBgNVBAcMA01U
+TDEQMA4GA1UECgwHYnVibGlrczEQMA4GA1UECwwHYnVibGlrczEaMBgGA1UEAwwR
+amZyb2cuYnVibGlrcy5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC92pNeN7gsUwLV2pmWrQIK67Rsy39VgOrLNqbZxEPkSdxkBcs8cu0pQh8x2w3a
++d4a++SxwCDZo4mZk1QMsG+/s0k33eixr6GWl8/mLJIGkJ1uTBAqy83PntPv10tw
+Ov6QvsVHfJe2NgdlqTznR0hGA8flhVnRNeh4UBTxD50WmZAGJg71ztbew+NXxM0U
+ldy0o22+ooQTz8aathsDFp51sNfcknfvBKmN745UDEmDrREtmGm/rnKx82D2KzQy
+UhhJWX45CdUNcE/jwh4/+Z7Z5amyWGZKfOMm8PlI8kzrwKBZm6Db1qM/FO74Uiij
+Jejkwo3tPzqzTBsXTrgsgUpbAgMBAAGjggHIMIIBxDAJBgNVHRMEAjAAMB0GA1Ud
+DgQWBBRD2bZcJ1luVz4UqvSS0jWv6RfcTTBRBgNVHSMESjBIgBRRCRrvcZ5Gpupm
+2fW4C+sZJAVVIaEapBgwFjEUMBIGA1UEAwwLYnVibGluaS5uZXSCFH6zm6o5NiMC
+BpOefTWxZVhvEdXwMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIFoDCC
+ASEGA1UdEQSCARgwggEUghFqZnJvZy5idWJsaWtzLm5ldIIRcmVndjIuYnVibGlr
+cy5uZXSCE2plbmtpbnMuYnVibGlrcy5uZXSCE2J1Ymxpa3MuYnVibGlrcy5uZXSC
+D3d3dy5idWJsaWtzLm5ldIIRc3VwZXIuYnVibGlrcy5uZXSCEHByb20uYnVibGlr
+cy5uZXSCEG1haWwuYnVibGlrcy5uZXSCEGhsZWIuYnVibGlrcy5uZXSCC2J1Ymxp
+a3MubmV0ghBncmFmLmJ1Ymxpa3MubmV0ghNwaHBpbmZvLmJ1Ymxpa3MubmV0ghBp
+bmZvLmJ1Ymxpa3MubmV0ghFuZXh1cy5idWJsaWtzLm5ldIIPd3d3LmJ1Ymxpa3Mu
+bmV0MA0GCSqGSIb3DQEBCwUAA4IBAQAZL4MoYjMAS7P2cGDxXSHxKf+NP/UyS7Fd
+CJf296068SnyjqTHIRkOjkFchZrvI8A00r1BQz4+cL0mV7jFCTE79yIRZK0rLQa9
+zNzdlrLTrdZoM/t8jGkysHXohnJBPx64Sow3hptqEG8HRYnaV0qy3ohQc5p9zOKX
+8hsdVlWeN5ibpYdnOyVYopNkllbLksjM5RCr2r5fozqLTjxxdeXpfGZdZCgYEb/z
+RzcqcvhW27NovGn07CeGY/rz52JtyxyEZ51/vWsmTztHdYFxGi0Ntio2gK0lRTRD
+0Owp1gB2um+5LQfdpBMovQ7rRFnbYz921fD+cQHECASEFDcF31NJ
+-----END CERTIFICATE-----

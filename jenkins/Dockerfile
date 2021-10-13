@@ -6,7 +6,7 @@ USER root
 RUN apt-get update && \
     apt-get install -y software-properties-common  zlib1g-dev python-dev  python3-setuptools python3-wheel  && \
     apt-get install -y net-tools tar curl build-essential manpages-dev libssl-dev openssl openssh-client bash libffi-dev libzip-dev dnsutils vim  bzip* 
-  
+    
 
 WORKDIR /tmp
 RUN curl https://www.python.org/ftp/python/3.9.1/Python-3.9.1.tgz -O && \

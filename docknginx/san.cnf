@@ -1,0 +1,44 @@
+
+
+
+
+[ req_distinguished_name ]
+countryName                = CA
+stateOrProvinceName        = QC
+localityName               = MTL
+organizationName           = bubliks
+organizationalUnitName     = bubliks
+commonName                 = jfrog.bubliks.net
+
+
+[req]
+distinguished_name = req_distinguished_name
+req_extensions = v3_req
+prompt = no
+
+
+[v3_req]
+keyUsage = keyEncipherment, dataEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+
+
+
+[alt_names]
+DNS.1   = jfrog.bubliks.net
+DNS.2   = regv2.bubliks.net
+DNS.3   = jenkins.bubliks.net
+DNS.4   = bubliks.bubliks.net
+DNS.5   = www.bubliks.net
+DNS.6   = super.bubliks.net
+DNS.7   = prom.bubliks.net
+DNS.8   = mail.bubliks.net
+DNS.9   = hleb.bubliks.net
+DNS.10   = bubliks.net
+DNS.11  = graf.bubliks.net
+DNS.12  = phpinfo.bubliks.net
+DNS.13  = info.bubliks.net
+DNS.14  = nexus.bubliks.net
+DNS.15  = cool.bubliks.net
+DNS.15  = www.bubliks.net

@@ -1,0 +1,6 @@
+configVersion: 1
+shared:
+    extraJavaOpts: "-server -Xms512m -Xmx2g -Xss256k -XX:+UseG1GC"
+    security:
+    node:
+    database:
