@@ -54,3 +54,12 @@ spec:
       - hostPath:
           path: /
         name: root
+      
+      nodeSelector:
+         super: kolobok
+      tolerations:
+           - key: node-role.kubernetes.io/master
+             effect: NoSchedule
+
+
+

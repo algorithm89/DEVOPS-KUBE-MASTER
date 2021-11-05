@@ -51,6 +51,7 @@ spec:
                  name: ssl2crt
                - mountPath: /etc/nginx/ssl/ssl.key
                  name: ssl2key
+        
 
         ports:
         - containerPort: 80
@@ -98,8 +99,6 @@ spec:
       tolerations:
               - key: node-role.kubernetes.io/master
                 effect: NoSchedule  
-         
-
 ---
 
 apiVersion: v1

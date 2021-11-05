@@ -37,11 +37,6 @@ spec:
               mountPath: /etc/prometheus/
             - name: prometheus-storage-volume
               mountPath: /prometheus/
-      nodeSelector:
-        super: kolobok
-      tolerations:
-        - key:  node-role.kubernetes.io/master
-          effect:     NoSchedule
       volumes:
         - name: prometheus-config-volume
           configMap:
@@ -50,3 +45,10 @@ spec:
 
         - name: prometheus-storage-volume
           emptyDir: {}
+      
+      nodeSelector:
+         super: kolobok
+      tolerations:
+              - key: node-role.kubernetes.io/master
+                effect: NoSchedule
+

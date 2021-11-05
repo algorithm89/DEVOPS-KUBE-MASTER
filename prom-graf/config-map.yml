@@ -103,6 +103,32 @@ data:
           action: replace
           target_label: kubernetes_pod_name
 
+      - job_name: 'k8services-pods'
+        kubernetes_sd_configs:
+        - role: endpoints
+        relabel_configs:
+        - source_labels:
+             - __meta_kubernetes_namespace
+             - __meta_kubernetes_service_name
+          action: drop
+          regex: default;kubernetes
+        - source_labels:
+             - __meta_kubernetes_namespace
+          regex: default
+          action: keep
+        - source_labels: [__meta_kubernetes_service_name]
+          target_label: job    
+
+      - job_name: 'k8pods'
+        kubernetes_sd_configs:
+         - role: pod
+        relabel_configs:
+         - source_labels: [__meta_kubernetes_pod_container_port_name]
+           regex: metrics
+           action: keep
+         - source_labels: [__meta_kubernetes_pod_container_name]
+           target_label: job         
+
       - job_name: 'kube-state-metrics'
         static_configs:
           - targets: ['kube-state-metrics.kube-system.svc.cluster.local:8080']
@@ -158,4 +184,3 @@ data:
         - source_labels: [__meta_kubernetes_service_name]
           action: replace
           target_label: kubernetes_name
-
