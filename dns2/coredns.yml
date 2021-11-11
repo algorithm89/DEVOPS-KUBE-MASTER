@@ -7,13 +7,13 @@ metadata:
 data:
   Corefile: |
     .:53 {
-        log 
         errors
+        log
         health {
             lameduck 5s
         }
         ready
-        kubernetes cluster.local  in-addr.arpa ip6.arpa {
+        kubernetes cluster.local in-addr.arpa ip6.arpa {
             pods insecure
             fallthrough in-addr.arpa ip6.arpa
             ttl 30
@@ -21,6 +21,7 @@ data:
         prometheus :9153
         forward . /etc/resolv.conf
         cache 30
+        loop
         reload
         loadbalance
     }
