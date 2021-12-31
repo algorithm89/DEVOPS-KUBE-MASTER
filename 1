@@ -1,0 +1,38 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{"prometheus.io/port":"8080","prometheus.io/scrape":"true"},"labels":{"app":"kube-state-metrics"},"name":"kube-state-metrics","namespace":"monitoring"},"spec":{"ports":[{"port":8080,"targetPort":8080}],"selector":{"app":"kube-state-metrics"},"type":"ClusterIP"}}
+    prometheus.io/port: "8080"
+    prometheus.io/scrape: "true"
+  creationTimestamp: "2021-11-12T01:39:23Z"
+  labels:
+    app: kube-state-metrics
+  name: kube-state-metrics
+  namespace: monitoring
+  resourceVersion: "140648"
+  uid: 6077c971-aa1c-4fae-926a-f96bfa2c2535
+spec:
+  clusterIP: 10.100.13.205
+  clusterIPs:
+  - 10.100.13.205
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: kube-state-metrics
+  sessionAffinity: None
+  type: ClusterIP
+  externalIPs:
+   - 10.1.1.1
+status:
+  loadBalancer: {}

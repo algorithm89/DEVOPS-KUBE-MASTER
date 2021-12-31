@@ -51,8 +51,8 @@ spec:
                  name: dhparam
 
         ports:
-        - containerPort: 80
-        - containerPort: 443
+              - containerPort: 80
+              - containerPort: 443
 
       volumes:
       - name: nginxconf
@@ -110,6 +110,20 @@ spec:
 
       nodeSelector:   
         yummy: hleb 
+      
+      imagePullSecrets:
+        - name: regcred
+      dnsPolicy: "None"
+      dnsConfig:
+        nameservers:
+          - 10.1.1.1
+          - 8.8.8.8
+        searches:
+          - bubliks.net
+        options:
+          - name: ndots
+            value: "2"
+          - name: edns0
 
 ---
 
@@ -119,7 +133,7 @@ metadata:
   name: nginxexpose
   namespace: apps
 spec:
-  type: LoadBalancer
+  type: LoadBalancer 
   selector:
      app: nginx-app
 
@@ -128,19 +142,13 @@ spec:
       protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30888
 
 
     - name: https
       protocol: TCP
       port: 443
       targetPort: 443
-      nodePort: 30443
   externalIPs:
-     - 10.1.1.8
-
-
-
-
+   - 10.1.1.8
 
 

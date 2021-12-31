@@ -15,7 +15,7 @@ data:
                 "name": "prometheus",
                 "orgId": 1,
                 "type": "prometheus",
-                "url": "http://prom.bubliks.net:9090/metrics",
+                "url": "http://metrics.bubliks.net:8080/metrics",
                 "version": 1
             }
         ]

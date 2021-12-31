@@ -39,6 +39,9 @@ data:
         - source_labels: [__meta_kubernetes_endpoints_name]
           regex: 'node-exporter'
           action: keep
+        static_configs:
+         - targets: ['10.1.1.1:9100','10.1.1.8.9100']
+
 
       - job_name: 'kubernetes-apiservers'
 
@@ -77,31 +80,50 @@ data:
           replacement: /api/v1/nodes/${1}/proxy/metrics
 
       - job_name: 'kubernetes-pods'
-
+        scrape_interval: 1m
+        scrape_timeout: 10s
+        metrics_path: /metrics
+        scheme: http
         kubernetes_sd_configs:
-        - role: pod
-
+        - api_server: null
+          role: pod
+          namespaces:
+            names: []
         relabel_configs:
         - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_scrape]
+          separator: ;
+          regex: "true"
+          replacement: $1
           action: keep
-          regex: true
         - source_labels: [__meta_kubernetes_pod_annotation_prometheus_io_path]
-          action: replace
-          target_label: __metrics_path__
+          separator: ;
           regex: (.+)
+          target_label: __metrics_path__
+          replacement: $1
+          action: replace
         - source_labels: [__address__, __meta_kubernetes_pod_annotation_prometheus_io_port]
-          action: replace
+          separator: ;
           regex: ([^:]+)(?::\d+)?;(\d+)
-          replacement: $1:$2
           target_label: __address__
-        - action: labelmap
+          replacement: $1:$2
+          action: replace
+        - separator: ;
           regex: __meta_kubernetes_pod_label_(.+)
+          replacement: $1
+          action: labelmap
         - source_labels: [__meta_kubernetes_namespace]
+          separator: ;
+          regex: (.*)
+          target_label: namespace
+          replacement: $1
           action: replace
-          target_label: kubernetes_namespace
         - source_labels: [__meta_kubernetes_pod_name]
-          action: replace
+          separator: ;
+          regex: (.*)
           target_label: kubernetes_pod_name
+          replacement: $1
+          action: replace
+
 
       - job_name: 'k8services-pods'
         kubernetes_sd_configs:
@@ -131,7 +153,7 @@ data:
 
       - job_name: 'kube-state-metrics'
         static_configs:
-          - targets: ['kube-state-metrics.kube-system.svc.cluster.local:8080']
+         - targets: ['metrics2.bubliks.net:8080','kube-state-metrics.kube-system.svc.cluster.local:8080','metrics.bubliks.net:8080']
 
       - job_name: 'kubernetes-cadvisor'
 

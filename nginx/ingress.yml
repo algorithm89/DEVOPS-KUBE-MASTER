@@ -1,0 +1,60 @@
+
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hello-nginx-ingress
+  namespace: apps
+  annotations:
+    kubernetes.io/ingress.class: class1
+spec:
+  tls:
+  - hosts:
+     - super.bubliks.net 
+     - cool.bubliks.net
+     - hleb.bubliks.net
+     - regv2.bubliks.net
+    secretName: bublik-tls 
+  rules:
+  - host: "super.bubliks.net"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service: 
+            name: nginxexpose 
+            port:
+              number: 80
+
+  - host: "cool.bubliks.net"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service: 
+            name: nginxexpose 
+            port:
+              number: 80
+
+  - host: "hleb.bubliks.net"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service: 
+            name: nginxexpose 
+            port:
+              number: 80
+  - host: "regv2.bubliks.net"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service: 
+            name: regv2svc 
+            port:
+              number: 5000

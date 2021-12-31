@@ -14,7 +14,7 @@ spec:
   restartPolicy: Always
   
   nodeSelector:
-       super: kolobok2
+       super: kolobok
   tolerations:
               - key: node-role.kubernetes.io/master
                 effect: NoSchedule
