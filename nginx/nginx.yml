@@ -111,8 +111,8 @@ spec:
       nodeSelector:   
         yummy: hleb 
       
-      imagePullSecrets:
-        - name: regcred
+#      imagePullSecrets:
+ #       - name: regcred
       dnsPolicy: "None"
       dnsConfig:
         nameservers:
