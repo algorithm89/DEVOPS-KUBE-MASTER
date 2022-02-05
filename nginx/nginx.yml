@@ -110,7 +110,9 @@ spec:
 
       nodeSelector:   
         yummy: hleb 
+
       
+
 #      imagePullSecrets:
  #       - name: regcred
       dnsPolicy: "None"

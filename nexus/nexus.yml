@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nexus
-          image: sonatype/nexus3:latest
+          image:   sonatype/nexus3:latest
           env:
            - name: "INSTALL4J_ADD_VM_PARAMS"
              value: "-XX:ActiveProcessorCount=4"
@@ -30,6 +30,7 @@ spec:
               cpu: "500m"
           ports:
             - containerPort: 8081
+
           volumeMounts:
             - name: nexus-vol
               mountPath: /nexus-data
@@ -37,7 +38,7 @@ spec:
       initContainers:
          - name: init-nexus
            image: busybox   
-           command: ["sh", "-c", "chown -R 200:200 /nexus-data  && touch /tmp/coolboots.txt"]
+           command: ["sh", "-c", "chown -R 200:200 /nexus-data  && touch /tmp/BooBies.txt"]
            volumeMounts:
              - name: nexus-vol
                mountPath: /nexus-data
@@ -63,16 +64,14 @@ kind: Service
 metadata:
   name: nexus-service
   namespace: apps
-  annotations:
-      prometheus.io/scrape: 'true'
-      prometheus.io/path:   /
-      prometheus.io/port:   '8081'
 spec:
   selector: 
     app: nexus-server
   type: LoadBalancer 
   ports:
-    - port: 8081
+    - name: http
+      protocol: TCP
+      port: 8081
       targetPort: 8081
   externalIPs:
    - 10.1.1.1
