@@ -23,16 +23,25 @@ www         IN  A       10.1.1.1
 regv2       IN  A       10.1.1.8
 super       IN  A       10.1.1.8
 cool        IN  A       10.1.1.8
-prom        IN  A       10.1.1.8
+prom        IN  A       10.1.1.1
 jenkins     IN  A       10.1.1.1
 nexus       IN  A       10.1.1.1
+nexus       IN  A       192.168.1.25
 mail        IN  A       10.1.1.8
 yummy       IN  A       10.1.1.8
 hleb        IN  A       10.1.1.8
-graf        IN  A       10.1.1.8
+graf        IN  A       10.1.1.1
 info        IN  A       10.1.1.8
 phpinfo     IN  A       10.1.1.1
 kolobok     IN  A       10.1.1.1
+jfrog       IN  A       10.1.1.1
+bubliks     IN  A       10.1.1.1
+buba        IN  A       10.1.1.1
+metrics     IN  A       10.1.1.1
+metrics2    IN  A       10.1.1.8
+alertman    IN  A       10.1.1.1
+
+
 
 
 ;CNAME record

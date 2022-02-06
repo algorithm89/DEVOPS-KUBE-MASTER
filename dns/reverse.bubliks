@@ -32,10 +32,13 @@ ns3    IN A 10.1.1.8
 1      IN  PTR     kolobok.bubliks.net.
 8      IN  PTR     super.bubliks.net.
 8      IN  PTR     cool.bubliks.net.
-8      IN  PTR     prom.bubliks.net.
+1      IN  PTR     prom.bubliks.net.
 1      IN  PTR     nexus.bubliks.net.
+1      IN  PTR     jfrog.bubliks.net.
 8      IN  PTR     mail.bubliks.net.
 8      IN  PTR     hleb.bubliks.net.
-8      IN  PTR     graf.bubliks.net.
+1      IN  PTR     graf.bubliks.net.
+1      IN  PTR     bubliks.bubliks.net.
+1      IN  PTR     alertman.bubliks.net
 
 
