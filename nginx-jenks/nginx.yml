@@ -61,7 +61,7 @@ spec:
       volumes:
       - name: nginxconf
         hostPath:
-          path: /home/devops/devops/jenkins/nginx.conf
+          path: /home/devops/devops/nginx-jenks/nginx.conf
           type: FileOrCreate
 
 
@@ -72,17 +72,17 @@ spec:
 
       - name: bublikconf
         hostPath:
-          path: /home/devops/devops/jenkins/bublik.conf
+          path: /home/devops/devops/nginx-jenks/bublik.conf
           type: FileOrCreate
 
       - name: self
         hostPath:
-          path: /home/devops/devops/nginx/selfsigned.conf
+          path: /home/devops/devops/nginx-worker/selfsigned.conf
           type: FileOrCreate
 
       - name: sslparams
         hostPath:
-          path: /home/devops/devops/nginx/ssl-params.conf
+          path: /home/devops/devops/nginx-worker/ssl-params.conf
           type: FileOrCreate
 
 
