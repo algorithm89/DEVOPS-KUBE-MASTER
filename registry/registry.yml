@@ -39,9 +39,6 @@ spec:
 
   nodeSelector:
           yummy: hleb
-  tolerations:
-   - key: node-role.kubernetes.io/worker
-     effect: NoSchedule
 
 
 
