@@ -51,7 +51,7 @@ spec:
     
 
       nodeSelector:
-         super: kolobok
+         bublik: studios
       tolerations:
               - key: node-role.kubernetes.io/master
                 effect: NoSchedule

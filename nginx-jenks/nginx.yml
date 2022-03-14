@@ -1,26 +1,26 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment2
+  name: nginx-deployment-master
   labels:
-    app: nginx-app2
+    app: nginx-app-m2
   namespace: apps
 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-app2
+      app: nginx-app-m2
   template:
     metadata:
       labels:
-        app: nginx-app2
+        app: nginx-app-m2
 
 
 
     spec:
       containers:
-      - name: nginxfeva2
+      - name: nginxmaster2
         image: nginx:latest
         resources:
             limits:
@@ -50,6 +50,7 @@ spec:
 
                - mountPath: /etc/nginx/ssl/ssl.crt
                  name: ssl2crt
+
                - mountPath: /etc/nginx/ssl/ssl.key
                  name: ssl2key
         
@@ -61,48 +62,48 @@ spec:
       volumes:
       - name: nginxconf
         hostPath:
-          path: /home/devops/devops/nginx-jenks/nginx.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nginx-jenks/nginx.conf
           type: FileOrCreate
 
 
       - name: html1
         hostPath:
-          path: /home/devops/devops/www/html1
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nginx-jenks/html1
           type: DirectoryOrCreate
 
       - name: bublikconf
         hostPath:
-          path: /home/devops/devops/nginx-jenks/bublik.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nginx-jenks/bublik.conf
           type: FileOrCreate
 
       - name: self
         hostPath:
-          path: /home/devops/devops/nginx-worker/selfsigned.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nginx-worker/selfsigned.conf
           type: FileOrCreate
 
       - name: sslparams
         hostPath:
-          path: /home/devops/devops/nginx-worker/ssl-params.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nginx-worker/ssl-params.conf
           type: FileOrCreate
 
 
       - name: ssl2key
         hostPath:
-          path: /home/devops/devops/ssl/ssl.key
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/ssl/ssl.key
           type: FileOrCreate
 
       - name: ssl2crt
         hostPath:
-          path: /home/devops/devops/ssl/ssl.crt
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/ssl/ssl.crt
 
 
       - name: dhparam
         hostPath:
-          path: /home/devops/devops/ssl/dhparam.pem
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/ssl/dhparam.pem
           type: FileOrCreate
 
       nodeSelector:   
-       super: kolobok
+              bublik: studios
       tolerations:
               - key: node-role.kubernetes.io/master
                 effect: NoSchedule  
@@ -110,7 +111,7 @@ spec:
       dnsPolicy: "None"
       dnsConfig:
         nameservers:
-          - 10.1.1.1
+          - 172.16.1.1
           - 8.8.8.8
         searches:
           - bubliks.net
@@ -124,12 +125,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginxexpose2
+  name: nginxexpose-m2
   namespace: apps
 spec:
   type: LoadBalancer
   selector:
-     app: nginx-app2
+     app: nginx-app-m2
 
   ports:
     - name: http
@@ -143,7 +144,7 @@ spec:
       port: 443
       targetPort: 443
   externalIPs:
-   - 10.1.1.1
+   - 172.16.1.1
 
 
 
