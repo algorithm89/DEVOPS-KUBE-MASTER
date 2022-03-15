@@ -9,7 +9,8 @@ spec:
   accessModes:
   - ReadWriteOnce
   hostPath:
-    path: /home/devops/devops/nexus/data
+    path: /home/devops/DEVOPS/DEVOPS-KUBE-MASTER/nexus/data
+
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
