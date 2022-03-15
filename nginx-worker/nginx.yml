@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: nginx-deployment-node
   labels:
-    app: nginx-app
+    app: nginx-app-node
   namespace: apps
 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-app
+      app: nginx-app-node
   template:
     metadata:
       labels:
-        app: nginx-app
+        app: nginx-app-node
 
 
 
@@ -57,59 +57,59 @@ spec:
       volumes:
       - name: nginxconf
         hostPath:
-          path: /home/devops/devops/nginx/nginx.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/nginx/nginx.conf
           type: FileOrCreate
 
       - name: bublikconf
         hostPath:
-          path: /home/devops/devops/nginx/bublik.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/nginx/bublik.conf
           type: FileOrCreate
 
       - name: self
         hostPath:
-          path: /home/devops/devops/nginx/selfsigned.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/nginx/selfsigned.conf
           type: FileOrCreate
 
       - name: sslparams
         hostPath:
-          path: /home/devops/devops/nginx/ssl-params.conf
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/nginx/ssl-params.conf
           type: FileOrCreate
 
 
 
       - name: html1
         hostPath:
-          path: /home/devops/devops/html1
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/html1
           type: DirectoryOrCreate
 
       - name: html2
         hostPath:
-          path: /home/devops/devops/html2
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/html2
           type: DirectoryOrCreate
 
       - name: html3
         hostPath:
-          path: /home/devops/devops/html3
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/html3
           type: DirectoryOrCreate
 
       - name: sslkey
         hostPath:
-          path: /home/devops/devops/ssl/ssl.key
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/ssl/ssl.key
           type: FileOrCreate
 
       - name: sslcrt
         hostPath:
-          path: /home/devops/devops/ssl/ssl.crt
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/ssl/ssl.crt
           type: FileOrCreate
 
 
       - name: dhparam
         hostPath:
-          path: /home/devops/devops/ssl/dhparam.pem
+          path: /home/devops/DEVOPS/DEVOPS-KUBE-NODE/ssl/dhparam.pem
           type: FileOrCreate
 
       nodeSelector:   
-        yummy: hleb 
+         baraban: super
 
       
 
@@ -118,7 +118,7 @@ spec:
       dnsPolicy: "None"
       dnsConfig:
         nameservers:
-          - 10.1.1.1
+          - 172.16.1.1
           - 8.8.8.8
         searches:
           - bubliks.net
@@ -137,7 +137,7 @@ metadata:
 spec:
   type: LoadBalancer 
   selector:
-     app: nginx-app
+     app: nginx-app-node
 
   ports:
     - name: http
@@ -151,6 +151,6 @@ spec:
       port: 443
       targetPort: 443
   externalIPs:
-   - 10.1.1.8
+   - 172.16.1.8
 
 
